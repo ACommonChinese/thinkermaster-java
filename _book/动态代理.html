@@ -1,0 +1,2350 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>动态代理 · gitbook-daliu-java</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="da liu">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="OGNL.html" />
+    
+    
+    <link rel="prev" href="类加载与反射.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="常识.html">
+            
+                <a href="常识.html">
+            
+                    
+                    常识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="数组.html">
+            
+                <a href="数组.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="String.html">
+            
+                <a href="String.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="CLASSPATH.html">
+            
+                <a href="CLASSPATH.html">
+            
+                    
+                    CLASSPATH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="命令.html">
+            
+                <a href="命令.html">
+            
+                    
+                    命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="可变参.html">
+            
+                <a href="可变参.html">
+            
+                    
+                    可变参
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="集合/简介.html">
+            
+                <a href="集合/简介.html">
+            
+                    
+                    集合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="集合/简介.html">
+            
+                <a href="集合/简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="集合/LinkedList.html">
+            
+                <a href="集合/LinkedList.html">
+            
+                    
+                    LinkedList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="集合/HashSet.html">
+            
+                <a href="集合/HashSet.html">
+            
+                    
+                    HashSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="集合/LinkedHashSet.html">
+            
+                <a href="集合/LinkedHashSet.html">
+            
+                    
+                    LinkedHashSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="集合/LinkedHashMap.html">
+            
+                <a href="集合/LinkedHashMap.html">
+            
+                    
+                    LinkedHashMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="Overload_Override.html">
+            
+                <a href="Overload_Override.html">
+            
+                    
+                    Overload_Override
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="访问修饰符.html">
+            
+                <a href="访问修饰符.html">
+            
+                    
+                    访问修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="包.html">
+            
+                <a href="包.html">
+            
+                    
+                    包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="构造函数.html">
+            
+                <a href="构造函数.html">
+            
+                    
+                    构造函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="instanceof.html">
+            
+                <a href="instanceof.html">
+            
+                    
+                    instanceof
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="初始化块.html">
+            
+                <a href="初始化块.html">
+            
+                    
+                    初始化块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="包装类.html">
+            
+                <a href="包装类.html">
+            
+                    
+                    包装类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="==和equals.html">
+            
+                <a href="==和equals.html">
+            
+                    
+                    ==和equals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="单例.html">
+            
+                <a href="单例.html">
+            
+                    
+                    单例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="缓存不可变类.html">
+            
+                <a href="缓存不可变类.html">
+            
+                    
+                    缓存不可变类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="抽象类.html">
+            
+                <a href="抽象类.html">
+            
+                    
+                    抽象类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="接口.html">
+            
+                <a href="接口.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="命令模式.html">
+            
+                <a href="命令模式.html">
+            
+                    
+                    命令模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="内部类.html">
+            
+                <a href="内部类.html">
+            
+                    
+                    内部类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="函数式接口/函数式接口.html">
+            
+                <a href="函数式接口/函数式接口.html">
+            
+                    
+                    函数式接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.23.1" data-path="函数式接口/Lambda语法.html">
+            
+                <a href="函数式接口/Lambda语法.html">
+            
+                    
+                    Lambda语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.2" data-path="函数式接口/延迟执行.html">
+            
+                <a href="函数式接口/延迟执行.html">
+            
+                    
+                    延迟执行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.3" data-path="函数式接口/Labmda参数和返回值.html">
+            
+                <a href="函数式接口/Labmda参数和返回值.html">
+            
+                    
+                    Labmda参数和返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.4" data-path="函数式接口/Supplier.html">
+            
+                <a href="函数式接口/Supplier.html">
+            
+                    
+                    Supplier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.5" data-path="函数式接口/Consumer.html">
+            
+                <a href="函数式接口/Consumer.html">
+            
+                    
+                    Consumer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.6" data-path="函数式接口/Predicate.html">
+            
+                <a href="函数式接口/Predicate.html">
+            
+                    
+                    Predicate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.7" data-path="函数式接口/Function.html">
+            
+                <a href="函数式接口/Function.html">
+            
+                    
+                    Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.8" data-path="函数式接口/方法引用.html">
+            
+                <a href="函数式接口/方法引用.html">
+            
+                    
+                    方法引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="Stream流思想/Stream流思想.html">
+            
+                <a href="Stream流思想/Stream流思想.html">
+            
+                    
+                    Stream流思想
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.24.1" data-path="Stream流思想/获取流.html">
+            
+                <a href="Stream流思想/获取流.html">
+            
+                    
+                    获取流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24.2" data-path="Stream流思想/常用方法.html">
+            
+                <a href="Stream流思想/常用方法.html">
+            
+                    
+                    常用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24.3" data-path="Stream流思想/示例.html">
+            
+                <a href="Stream流思想/示例.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="枚举类.html">
+            
+                <a href="枚举类.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="内存管理.html">
+            
+                <a href="内存管理.html">
+            
+                    
+                    内存管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="JAR.html">
+            
+                <a href="JAR.html">
+            
+                    
+                    JAR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="泛型.html">
+            
+                <a href="泛型.html">
+            
+                    
+                    泛型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="异常.html">
+            
+                <a href="异常.html">
+            
+                    
+                    异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="JavaBean.html">
+            
+                <a href="JavaBean.html">
+            
+                    
+                    JavaBean
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="File与IO流/File.html">
+            
+                <a href="File与IO流/File.html">
+            
+                    
+                    File与IO流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.31.1" data-path="File与IO流/File.html">
+            
+                <a href="File与IO流/File.html">
+            
+                    
+                    File
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.2" data-path="File与IO流/文件搜索.html">
+            
+                <a href="File与IO流/文件搜索.html">
+            
+                    
+                    文件搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.3" data-path="File与IO流/文件过滤.html">
+            
+                <a href="File与IO流/文件过滤.html">
+            
+                    
+                    文件过滤
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.4" data-path="File与IO流/IO流体系.html">
+            
+                <a href="File与IO流/IO流体系.html">
+            
+                    
+                    IO流体系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.5" data-path="File与IO流/字节流.html">
+            
+                <a href="File与IO流/字节流.html">
+            
+                    
+                    字节流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.6" data-path="File与IO流/字符流.html">
+            
+                <a href="File与IO流/字符流.html">
+            
+                    
+                    字符流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.7" data-path="File与IO流/转换流.html">
+            
+                <a href="File与IO流/转换流.html">
+            
+                    
+                    转换流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.8" data-path="File与IO流/缓冲流.html">
+            
+                <a href="File与IO流/缓冲流.html">
+            
+                    
+                    缓冲流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.9" data-path="File与IO流/序列化流.html">
+            
+                <a href="File与IO流/序列化流.html">
+            
+                    
+                    序列化流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.10" data-path="File与IO流/打印流.html">
+            
+                <a href="File与IO流/打印流.html">
+            
+                    
+                    打印流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.11" data-path="File与IO流/Properties.html">
+            
+                <a href="File与IO流/Properties.html">
+            
+                    
+                    Properties
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="序列化与反序列化/">
+            
+                <a href="序列化与反序列化/">
+            
+                    
+                    序列化与反序列化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.32.1" data-path="序列化与反序列化/Serializable示例.html">
+            
+                <a href="序列化与反序列化/Serializable示例.html">
+            
+                    
+                    Serializable示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.2" data-path="序列化与反序列化/对象引用的序列化.html">
+            
+                <a href="序列化与反序列化/对象引用的序列化.html">
+            
+                    
+                    对象引用的序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.3" data-path="序列化与反序列化/Java9过滤功能.html">
+            
+                <a href="序列化与反序列化/Java9过滤功能.html">
+            
+                    
+                    Java9过滤功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.4" data-path="序列化与反序列化/transient.html">
+            
+                <a href="序列化与反序列化/transient.html">
+            
+                    
+                    transient
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.5" data-path="序列化与反序列化/自定义序列化.html">
+            
+                <a href="序列化与反序列化/自定义序列化.html">
+            
+                    
+                    自定义序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.6" data-path="序列化与反序列化/writeReplace.html">
+            
+                <a href="序列化与反序列化/writeReplace.html">
+            
+                    
+                    writeReplace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.7" data-path="序列化与反序列化/readResolve.html">
+            
+                <a href="序列化与反序列化/readResolve.html">
+            
+                    
+                    readResolve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.8" data-path="序列化与反序列化/Externalizable.html">
+            
+                <a href="序列化与反序列化/Externalizable.html">
+            
+                    
+                    Externalizable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.9" data-path="序列化与反序列化/版本.html">
+            
+                <a href="序列化与反序列化/版本.html">
+            
+                    
+                    版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.10" data-path="序列化与反序列化/注意事项.html">
+            
+                <a href="序列化与反序列化/注意事项.html">
+            
+                    
+                    注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="AWT.html">
+            
+                <a href="AWT.html">
+            
+                    
+                    AWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="Swing.html">
+            
+                <a href="Swing.html">
+            
+                    
+                    Swing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="SWT.html">
+            
+                <a href="SWT.html">
+            
+                    
+                    SWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="JDBC和MySQL.html">
+            
+                <a href="JDBC和MySQL.html">
+            
+                    
+                    JDBC和MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="MySQL/">
+            
+                <a href="MySQL/">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="JDBC/">
+            
+                <a href="JDBC/">
+            
+                    
+                    JDBC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.38.1" data-path="JDBC/配置.html">
+            
+                <a href="JDBC/配置.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.2" data-path="JDBC/常用类.html">
+            
+                <a href="JDBC/常用类.html">
+            
+                    
+                    常用类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.3" data-path="JDBC/ResultSet.html">
+            
+                <a href="JDBC/ResultSet.html">
+            
+                    
+                    ResultSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.4" data-path="JDBC/存储过程.html">
+            
+                <a href="JDBC/存储过程.html">
+            
+                    
+                    存储过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.5" data-path="JDBC/封装示例.html">
+            
+                <a href="JDBC/封装示例.html">
+            
+                    
+                    封装示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.6" data-path="JDBC/PreparedStatement.html">
+            
+                <a href="JDBC/PreparedStatement.html">
+            
+                    
+                    PreparedStatement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.7" data-path="JDBC/Blob.html">
+            
+                <a href="JDBC/Blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.8" data-path="JDBC/ResultMetaData.html">
+            
+                <a href="JDBC/ResultMetaData.html">
+            
+                    
+                    ResultMetaData
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.9" data-path="JDBC/DatabaseMetadata.html">
+            
+                <a href="JDBC/DatabaseMetadata.html">
+            
+                    
+                    DatabaseMetadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.10" data-path="JDBC/RowSet.html">
+            
+                <a href="JDBC/RowSet.html">
+            
+                    
+                    RowSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.11" data-path="JDBC/事务.html">
+            
+                <a href="JDBC/事务.html">
+            
+                    
+                    事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.12" data-path="JDBC/连接池.html">
+            
+                <a href="JDBC/连接池.html">
+            
+                    
+                    连接池
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.13" data-path="JDBC/JDbcTemplate.html">
+            
+                <a href="JDBC/JDbcTemplate.html">
+            
+                    
+                    JDbcTemplate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="Annotation.html">
+            
+                <a href="Annotation.html">
+            
+                    
+                    Annotation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="输入输出.html">
+            
+                <a href="输入输出.html">
+            
+                    
+                    输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="线程/简介.html">
+            
+                <a href="线程/简介.html">
+            
+                    
+                    线程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.1" data-path="线程/简介.html">
+            
+                <a href="线程/简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2" data-path="线程/线程创建/Thread.html">
+            
+                <a href="线程/线程创建/Thread.html">
+            
+                    
+                    线程创建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.2.1" data-path="线程/线程创建/Thread.html">
+            
+                <a href="线程/线程创建/Thread.html">
+            
+                    
+                    Thread
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.2" data-path="线程/线程创建/Runnable.html">
+            
+                <a href="线程/线程创建/Runnable.html">
+            
+                    
+                    Runnable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.3" data-path="线程/线程创建/Callable.html">
+            
+                <a href="线程/线程创建/Callable.html">
+            
+                    
+                    Callable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.4" data-path="线程/线程创建/匿名方式线程.html">
+            
+                <a href="线程/线程创建/匿名方式线程.html">
+            
+                    
+                    匿名方式线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3" data-path="线程/线程安全/线程安全.html">
+            
+                <a href="线程/线程安全/线程安全.html">
+            
+                    
+                    线程安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.3.1" data-path="线程/线程安全/同步代码块.html">
+            
+                <a href="线程/线程安全/同步代码块.html">
+            
+                    
+                    同步代码块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.2" data-path="线程/线程安全/同步方法.html">
+            
+                <a href="线程/线程安全/同步方法.html">
+            
+                    
+                    同步方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.3" data-path="线程/线程安全/静态同步方法.html">
+            
+                <a href="线程/线程安全/静态同步方法.html">
+            
+                    
+                    静态同步方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.4" data-path="线程/线程安全/Lock.html">
+            
+                <a href="线程/线程安全/Lock.html">
+            
+                    
+                    Lock
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.4" data-path="线程/线程状态/线程状态.html">
+            
+                <a href="线程/线程状态/线程状态.html">
+            
+                    
+                    线程状态
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.4.1" data-path="线程/线程状态/TimedWaiting.html">
+            
+                <a href="线程/线程状态/TimedWaiting.html">
+            
+                    
+                    TimedWaiting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.5" data-path="线程/线程通信/线程通知.html">
+            
+                <a href="线程/线程通信/线程通知.html">
+            
+                    
+                    线程通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.5.1" data-path="线程/线程通信/线程通知.html">
+            
+                <a href="线程/线程通信/线程通知.html">
+            
+                    
+                    线程通知
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.5.2" data-path="线程/线程通信/生产者消费者.html">
+            
+                <a href="线程/线程通信/生产者消费者.html">
+            
+                    
+                    生产者消费者
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.6" data-path="线程/线程池/线程池.html">
+            
+                <a href="线程/线程池/线程池.html">
+            
+                    
+                    线程池
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="Runtime.html">
+            
+                <a href="Runtime.html">
+            
+                    
+                    Runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="类加载与反射.html">
+            
+                <a href="类加载与反射.html">
+            
+                    
+                    类加载与反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.44" data-path="动态代理.html">
+            
+                <a href="动态代理.html">
+            
+                    
+                    动态代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="OGNL.html">
+            
+                <a href="OGNL.html">
+            
+                    
+                    OGNL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="网络编程/TCP.html">
+            
+                <a href="网络编程/TCP.html">
+            
+                    
+                    网络编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.46.1" data-path="网络编程/TCP.html">
+            
+                <a href="网络编程/TCP.html">
+            
+                    
+                    TCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.2" data-path="网络编程/TCP客户端.html">
+            
+                <a href="网络编程/TCP客户端.html">
+            
+                    
+                    TCP客户端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.3" data-path="网络编程/TCP服务端.html">
+            
+                <a href="网络编程/TCP服务端.html">
+            
+                    
+                    TCP服务端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.4" data-path="网络编程/文件上传示例.html">
+            
+                <a href="网络编程/文件上传示例.html">
+            
+                    
+                    文件上传示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.5" data-path="网络编程/BS服务器示例.html">
+            
+                <a href="网络编程/BS服务器示例.html">
+            
+                    
+                    BS服务器示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47" data-path="Junit.html">
+            
+                <a href="Junit.html">
+            
+                    
+                    Junit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48" data-path="类加载与反射/类加载与反射反射.html">
+            
+                <a href="类加载与反射/类加载与反射反射.html">
+            
+                    
+                    类加载与反射
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.48.1" data-path="类加载与反射/类的加载.html">
+            
+                <a href="类加载与反射/类的加载.html">
+            
+                    
+                    类的加载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48.2" data-path="类加载与反射/类加载器.html">
+            
+                <a href="类加载与反射/类加载器.html">
+            
+                    
+                    类加载器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48.3" data-path="类加载与反射/自定义类加载器.html">
+            
+                <a href="类加载与反射/自定义类加载器.html">
+            
+                    
+                    自定义类加载器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >动态代理</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x52A8;&#x6001;&#x4EE3;&#x7406;">&#x52A8;&#x6001;&#x4EE3;&#x7406;</h1>
+<p>&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x662F;&#x6307;&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x52A8;&#x6001;&#x5730;&#x5BF9;&#x67D0;&#x4E9B;&#x4E1C;&#x897F;&#x4EE3;&#x7406;&#xFF0C;&#x4EE3;&#x7406;&#x5B83;&#x505A;&#x4E86;&#x5176;&#x4ED6;&#x4E8B;&#x60C5;&#x3002;&#x6BD4;&#x5982;A&#x63A5;&#x53E3;&#x6709;&#x4E00;&#x4E2A;think()&#x65B9;&#x6CD5;&#xFF0C;&#x4F46;&#x4E0D;&#x901A;&#x8FC7;A&#x76F4;&#x63A5;&#x5B9E;&#x73B0;&#x5B83;&#xFF0C;&#x800C;&#x662F;&#x7531;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x5B9E;&#x73B0;&#x5B83;&#x3002;</p>
+<p>&#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x7684;&#x6838;&#x5FC3;, Proxy&#x7684;newProxyInstance&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Object <span class="hljs-title">newProxyInstance</span><span class="hljs-params">(ClassLoader loader, Class&lt;?&gt;[] interfaces, InvocationHandler h)</span>
+</span></code></pre>
+<p>&#x5047;&#x8BBE;&#x6709;&#x4E00;&#x4E2A;Thinkabel&#x63A5;&#x53E3;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x5B9E;&#x73B0;&#x5B83;&#xFF1A;</p>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<p><strong>Thinkable.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Thinkable</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">think</span><span class="hljs-params">()</span></span>;
+}
+</code></pre>
+<p><strong>Person.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Thinkable</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">think</span><span class="hljs-params">()</span> </span>{
+        System.out.println(<span class="hljs-string">&quot;person can deep think&quot;</span>);
+    }
+}
+</code></pre>
+<p><strong>DynamicProxy.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.lang.reflect.InvocationHandler;
+<span class="hljs-keyword">import</span> java.lang.reflect.Method;
+<span class="hljs-keyword">import</span> java.lang.reflect.Proxy;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DynamicProxy</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-comment">// Person p = new Person();</span>
+        <span class="hljs-comment">// Thinkable catThinkable = (Thinkable) Proxy.newProxyInstance(p.getClass().getClassLoader(), p.getClass().getInterfaces(), new PersonInvocationHandler());</span>
+        Thinkable personThinkable = (Thinkable) Proxy.newProxyInstance(Person.class.getClassLoader(), Person.class.getInterfaces(), <span class="hljs-keyword">new</span> PersonInvocationHandler());
+        personThinkable.think(); <span class="hljs-comment">// person can deep think</span>
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersonInvocationHandler</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">InvocationHandler</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">invoke</span><span class="hljs-params">(Object proxy, Method method, Object[] args)</span> <span class="hljs-keyword">throws</span> Throwable </span>{
+        Person p = <span class="hljs-keyword">new</span> Person();
+        <span class="hljs-keyword">if</span> (method.getName().equals(<span class="hljs-string">&quot;think&quot;</span>)) {
+            <span class="hljs-keyword">return</span> method.invoke(p, args);
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+    }
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x7531;Proxy&#x65B0;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#xFF0C;&#x7136;&#x540E;&#x8C03;&#x7528;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;think()&#x65B9;&#x6CD5;&#xFF0C;newProxyInstance&#x65B9;&#x6CD5;&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x63A5;&#x53E3;InvocationHandler, &#x8FD9;&#x4E2A;&#x63A5;&#x53E3;&#x53EA;&#x6709;&#x4E00;&#x4E2A;invoke&#x65B9;&#x6CD5;&#xFF0C;&#x65E0;&#x8BBA;&#x8C03;&#x7528;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x7684;&#x54EA;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x90FD;&#x4F1A;&#x89E6;&#x53D1;&#x5230;&#x8FD9;&#x4E2A;InvocationHandler&#x5BF9;&#x8C61;&#x7684;invoke&#x65B9;&#x6CD5;&#xFF0C;&#x6211;&#x4EEC;&#x5728;invoke&#x65B9;&#x6CD5;&#x4E2D;&#x89E6;&#x53D1;&#x4E86;person&#x7684;think&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x597D;&#x50CF;&#x8FD9;&#x4E5F;&#x6CA1;&#x4EC0;&#x4E48;&#x5927;&#x4E0D;&#x4E86;&#x7684;&#xFF0C;&#x4E0A;&#x9762;&#x90FD;&#x65B0;&#x5EFA;&#x4E86;Person&#x5BF9;&#x8C61;&#xFF0C;&#x4E3A;&#x4F55;&#x4E0D;&#x76F4;&#x63A5;&#x8C03;&#x7528;p.think()&#x5462;&#xFF1F;&#x6211;&#x4EEC;&#x518D;&#x6765;&#x770B;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#xFF1A;  </p>
+<p><strong>Thinkable.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Thinkable</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">think</span><span class="hljs-params">()</span></span>;
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.lang.reflect.InvocationHandler;
+<span class="hljs-keyword">import</span> java.lang.reflect.Method;
+<span class="hljs-keyword">import</span> java.lang.reflect.Proxy;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DynamicProxy</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        getMyProxy(Thinkable.class).think();
+        getMyProxy(Eatable.class).eat();
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> &lt;T&gt; <span class="hljs-function">T <span class="hljs-title">getMyProxy</span><span class="hljs-params">(Class&lt;T&gt; interfaceClass)</span> </span>{
+        <span class="hljs-keyword">return</span> (T)Proxy.newProxyInstance(interfaceClass.getClassLoader(), <span class="hljs-keyword">new</span> Class[]{interfaceClass}, <span class="hljs-keyword">new</span> MyInvocationHandler());
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyInvocationHandler</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">InvocationHandler</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">invoke</span><span class="hljs-params">(Object proxy, Method method, Object[] args)</span> <span class="hljs-keyword">throws</span> Throwable </span>{
+        <span class="hljs-comment">// 1. &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x540D;</span>
+        String methodName = method.getName();
+        <span class="hljs-comment">// 2. &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x6240;&#x5728;&#x7C7B;&#x7684;&#x540D;&#x79F0;</span>
+        String className = method.getDeclaringClass().getName();
+        <span class="hljs-comment">// 3. &#x7EC4;&#x5408;key</span>
+        String key = className + <span class="hljs-string">&quot;.&quot;</span> + methodName;
+        <span class="hljs-keyword">if</span> (className.equals(<span class="hljs-string">&quot;Thinkable&quot;</span>)) {
+            <span class="hljs-keyword">if</span> (methodName.equals(<span class="hljs-string">&quot;think&quot;</span>)) {
+                System.out.println(<span class="hljs-string">&quot;think! think! think! here!&quot;</span>);
+            }
+        }
+        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (className.equals(<span class="hljs-string">&quot;Eatable&quot;</span>)) {
+            <span class="hljs-keyword">if</span> (methodName.equals(<span class="hljs-string">&quot;eat&quot;</span>)) {
+                System.out.println(<span class="hljs-string">&quot;eat! eat! eat! here!&quot;</span>);
+            }
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+    }
+}
+</code></pre>
+<p>&#x7A0B;&#x5E8F;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#xFF1A;</p>
+<pre><code>think! think! think! here!
+eat! eat! eat! here!
+</code></pre><h3 id="&#x6700;&#x7B80;&#x5355;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x4E4B;mybatis">&#x6700;&#x7B80;&#x5355;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x4E4B;MyBatis</h3>
+<p>&#x4E0A;&#x9762;&#x53EA;&#x662F;&#x58F0;&#x660E;&#x4E86;&#x4E24;&#x4E2A;&#x534F;&#x8BAE;Thinkable&#x548C;Eatable, &#x800C;&#x771F;&#x6B63;&#x7684;&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#x662F;&#x4E2D;&#x52A8;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x4E2D;&#x5904;&#x7406;&#x7684;&#x3002;<br>MyBatis&#x6846;&#x67B6;&#x5C31;&#x662F;&#x4F7F;&#x7528;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x673A;&#x5236;&#x628A;Interface&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x4EE5;&#x5408;&#x9002;&#x7684;&#x5B9E;&#x73B0;&#x51FA;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x505A;&#x4E00;&#x4E2A;&#x6700;&#x7B80;&#x5355;&#x7684;&#x793A;&#x4F8B;&#xFF1A;  </p>
+<p>Demo&#x5730;&#x5740;&#xFF1A;<code>./demos/DynamicProxyDemo</code></p>
+<p><strong>com.domain.User.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.domain;
+
+<span class="hljs-keyword">import</span> java.io.Serializable;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">User</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Serializable</span></span>{
+
+    <span class="hljs-keyword">private</span> Integer id;
+    <span class="hljs-keyword">private</span> String username;
+    <span class="hljs-keyword">private</span> String address;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Integer <span class="hljs-title">getId</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> id;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setId</span><span class="hljs-params">(Integer id)</span> </span>{
+        <span class="hljs-keyword">this</span>.id = id;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getUsername</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> username;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setUsername</span><span class="hljs-params">(String username)</span> </span>{
+        <span class="hljs-keyword">this</span>.username = username;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getAddress</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> address;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setAddress</span><span class="hljs-params">(String address)</span> </span>{
+        <span class="hljs-keyword">this</span>.address = address;
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;User{&quot;</span> +
+                <span class="hljs-string">&quot;id=&quot;</span> + id +
+                <span class="hljs-string">&quot;, username=&apos;&quot;</span> + username + <span class="hljs-string">&apos;\&apos;&apos;</span> +
+                <span class="hljs-string">&quot;, address=&apos;&quot;</span> + address + <span class="hljs-string">&apos;\&apos;&apos;</span> +
+                <span class="hljs-string">&apos;}&apos;</span>;
+    }
+}
+</code></pre>
+<p><strong>com.dao.IUserDao.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.dao;
+
+<span class="hljs-keyword">import</span> com.domain.User;
+<span class="hljs-keyword">import</span> java.util.List;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">IUserDao</span> </span>{
+    <span class="hljs-function">List&lt;User&gt; <span class="hljs-title">findAll</span><span class="hljs-params">()</span></span>;
+}
+`
+</code></pre>
+<p><strong>com.domain.Mapper.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.domain;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Mapper</span> </span>{
+    <span class="hljs-comment">/// SQL&#x8BED;&#x53E5;</span>
+    <span class="hljs-keyword">private</span> String queryString;
+
+    <span class="hljs-comment">/// &#x5B9E;&#x4F53;&#x7C7B;&#x7684;&#x5168;&#x9650;&#x5B9A;&#x7C7B;&#x540D;</span>
+    <span class="hljs-keyword">private</span> String resultType;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getQueryString</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> queryString;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setQueryString</span><span class="hljs-params">(String queryString)</span> </span>{
+        <span class="hljs-keyword">this</span>.queryString = queryString;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getResultType</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> resultType;
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setResultType</span><span class="hljs-params">(String resultType)</span> </span>{
+        <span class="hljs-keyword">this</span>.resultType = resultType;
+    }
+}
+</code></pre>
+<p><strong>com.imp.DefaultSqlSession.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.imp;
+
+<span class="hljs-keyword">import</span> java.lang.reflect.Proxy;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DefaultSqlSession</span> </span>{
+    <span class="hljs-keyword">public</span> &lt;T&gt; <span class="hljs-function">T <span class="hljs-title">getMapper</span><span class="hljs-params">(Class&lt;T&gt; daoInterfaceClass)</span> </span>{
+        <span class="hljs-keyword">return</span> (T) Proxy.newProxyInstance(daoInterfaceClass.getClassLoader(), <span class="hljs-keyword">new</span> Class[]{daoInterfaceClass}, <span class="hljs-keyword">new</span> MyBatisInvocationHandler());
+    }
+}
+</code></pre>
+<p><strong>com.imp.MyBatisInvocationHandler.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.imp;
+
+<span class="hljs-keyword">import</span> com.domain.Mapper;
+<span class="hljs-keyword">import</span> com.domain.User;
+
+<span class="hljs-keyword">import</span> java.lang.reflect.InvocationHandler;
+<span class="hljs-keyword">import</span> java.lang.reflect.Method;
+<span class="hljs-keyword">import</span> java.util.ArrayList;
+<span class="hljs-keyword">import</span> java.util.HashMap;
+<span class="hljs-keyword">import</span> java.util.Map;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyBatisInvocationHandler</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">InvocationHandler</span> </span>{
+
+    <span class="hljs-keyword">static</span> Map&lt;String, Mapper&gt; mapper = <span class="hljs-keyword">new</span> HashMap&lt;&gt;();
+
+    <span class="hljs-comment">// mybatis&#x4F1A;&#x8BFB;&#x53D6;xml&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5E76;&#x5199;&#x5165;mapper&#x4E2D;</span>
+    <span class="hljs-keyword">static</span> {
+        Mapper map = <span class="hljs-keyword">new</span> Mapper();
+        map.setQueryString(<span class="hljs-string">&quot;select * from user&quot;</span>);
+        map.setResultType(<span class="hljs-string">&quot;com.domain.User&quot;</span>);
+        mapper.put(<span class="hljs-string">&quot;com.dao.IUserDao.findAll&quot;</span>, map);
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">invoke</span><span class="hljs-params">(Object proxy, Method method, Object[] args)</span> <span class="hljs-keyword">throws</span> Throwable </span>{
+        System.out.println(<span class="hljs-string">&quot;&#x89E6;&#x53D1;&#x4E86;invoke&#x65B9;&#x6CD5;&quot;</span>);
+        <span class="hljs-comment">// 1. &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x540D;</span>
+        String methodName = method.getName();
+        <span class="hljs-comment">// 2. &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x6240;&#x5728;&#x7C7B;&#x7684;&#x540D;&#x79F0;</span>
+        String className = method.getDeclaringClass().getName();
+        <span class="hljs-comment">// 3. &#x7EC4;&#x5408;key</span>
+        String key = className + <span class="hljs-string">&quot;.&quot;</span> + methodName;
+        <span class="hljs-keyword">if</span> (mapper.containsKey(key)) {
+            Mapper m = mapper.get(key);
+            System.out.println(<span class="hljs-string">&quot;==== &#x6267;&#x884C;SQL&#x8BED;&#x53E5; ====&quot;</span>);
+            System.out.println(<span class="hljs-string">&quot;&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&quot;</span> + m.getResultType());
+            System.out.println(<span class="hljs-string">&quot;sql&#x8BED;&#x53E5;&#xFF1A;&quot;</span> + m.getQueryString());
+            User user1 = <span class="hljs-keyword">new</span> User();
+            user1.setId(<span class="hljs-number">1001</span>);
+            user1.setUsername(<span class="hljs-string">&quot;&#x5927;&#x5218;&quot;</span>);
+            user1.setAddress(<span class="hljs-string">&quot;&#x4E2D;&#x56FD;&#x5317;&#x4EAC;&quot;</span>);
+            User user2 = <span class="hljs-keyword">new</span> User();
+            user1.setId(<span class="hljs-number">1002</span>);
+            user1.setUsername(<span class="hljs-string">&quot;&#x5F20;&#x4E09;&#x4E30;&quot;</span>);
+            user1.setAddress(<span class="hljs-string">&quot;&#x4E2D;&#x56FD;&#x6CB3;&#x5357;&quot;</span>);
+            ArrayList&lt;User&gt; arrayList = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+            arrayList.add(user1);
+            arrayList.add(user2);
+            <span class="hljs-keyword">return</span> arrayList;
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+    }
+}
+</code></pre>
+<p><strong>Test.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com;
+
+<span class="hljs-keyword">import</span> com.dao.IUserDao;
+<span class="hljs-keyword">import</span> com.domain.User;
+<span class="hljs-keyword">import</span> com.imp.DefaultSqlSession;
+
+<span class="hljs-keyword">import</span> java.util.List;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        DefaultSqlSession session = <span class="hljs-keyword">new</span> DefaultSqlSession();
+        List&lt;User&gt; users = session.getMapper(IUserDao.class).findAll();
+        <span class="hljs-keyword">for</span> (User u : users) {
+            System.out.println(u);
+        }
+    }
+}
+</code></pre>
+<h3 id="&#x57FA;&#x4E8E;&#x63A5;&#x53E3;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x518D;&#x793A;&#x4F8B;">&#x57FA;&#x4E8E;&#x63A5;&#x53E3;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#x518D;&#x793A;&#x4F8B;</h3>
+<p>&#x4E0B;&#x9762;&#x6A21;&#x62DF;&#x4E00;&#x4E2A;&#x751F;&#x4EA7;&#x5382;&#x5BB6;&#x751F;&#x4EA7;&#x7535;&#x8111;&#xFF0C;&#x5728;&#x51FA;&#x552E;&#x4EA7;&#x54C1;&#x65F6;&#x901A;&#x8FC7;&#x52A8;&#x6001;&#x4EE3;&#x7406;(&#x9500;&#x552E;&#x5546;)&#x7684;&#x65B9;&#x5F0F;&#x9500;&#x552E;&#x4EA7;&#x54C1;</p>
+<p><strong>com.daliu.proxy.IProducer.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.daliu.proxy;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">IProducer</span> </span>{
+    <span class="hljs-comment">// &#x9500;&#x552E;&#x4EA7;&#x54C1;</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">saleProduct</span><span class="hljs-params">(Float money)</span></span>;
+
+    <span class="hljs-comment">// &#x552E;&#x540E;&#x5904;&#x7406;</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">afterService</span><span class="hljs-params">(Float money)</span></span>;
+}
+</code></pre>
+<p><strong>com.daliu.proxy.Producer.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.daliu.proxy;
+
+<span class="hljs-comment">/**
+ * &#x751F;&#x4EA7;&#x5382;&#x5546;
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Producer</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">IProducer</span> </span>{
+    <span class="hljs-comment">// &#x9500;&#x552E;&#x4EA7;&#x54C1;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">saleProduct</span><span class="hljs-params">(Float money)</span> </span>{
+        System.out.println(<span class="hljs-string">&quot;&#x9500;&#x552E;&#x4EA7;&#x54C1;&#xFF0C;&#x5E76;&#x62FF;&#x5230;&#x94B1;&#xFF1A;&quot;</span> + money);
+    }
+
+    <span class="hljs-comment">// &#x552E;&#x540E;&#x5904;&#x7406;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">afterService</span><span class="hljs-params">(Float money)</span> </span>{
+        System.out.println(<span class="hljs-string">&quot;&#x63D0;&#x4F9B;&#x552E;&#x540E;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x62FF;&#x5230;&#x94B1;&#xFF1A;&quot;</span> + money);
+    }
+}
+</code></pre>
+<p><strong>com.daliu.proxy.Client.java</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> com.daliu.proxy;
+
+<span class="hljs-keyword">import</span> java.lang.reflect.InvocationHandler;
+<span class="hljs-keyword">import</span> java.lang.reflect.Method;
+<span class="hljs-keyword">import</span> java.lang.reflect.Proxy;
+
+<span class="hljs-comment">/**
+ * &#x6A21;&#x62DF;&#x6D88;&#x8D39;&#x8005;
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Client</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">final</span> Producer producer = <span class="hljs-keyword">new</span> Producer();
+        <span class="hljs-comment">// producer.saleProduct(10000F);</span>
+
+        <span class="hljs-comment">/**
+         * &#x52A8;&#x6001;&#x4EE3;&#x7406;&#xFF1A;
+         *      &#x7279;&#x70B9;&#xFF1A;&#x5B57;&#x8282;&#x7801;&#x968F;&#x7528;&#x968F;&#x521B;&#x5EFA;&#xFF0C;&#x968F;&#x7528;&#x968F;&#x52A0;&#x8F7D;
+         *      &#x4F5C;&#x7528;&#xFF1A;&#x4E0D;&#x4FEE;&#x6539;&#x6E90;&#x7801;&#x7684;&#x57FA;&#x7801;&#x4E0A;&#x5BF9;&#x65B9;&#x6CD5;&#x589E;&#x5F3A;
+         *      &#x5206;&#x7C7B;&#xFF1A;
+         *          1. &#x57FA;&#x4E8E;&#x63A5;&#x53E3;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;
+         *          2. &#x57FA;&#x4E8E;&#x5B50;&#x7C7B;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;
+         * &#x57FA;&#x4E8E;&#x63A5;&#x53E3;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#xFF1A;
+         *      &#x7C7B;&#xFF1A;Proxy
+         *      &#x63D0;&#x4F9B;&#x8005;: JDK
+         *      &#x521B;&#x5EFA;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#xFF1A;Proxy.newProxyInstance(...)
+         * &#x521B;&#x5EFA;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x8981;&#x6C42;&#xFF1A;
+         *      &#x88AB;&#x4EE3;&#x7406;&#x7C7B;&#x6700;&#x5C11;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x63A5;&#x53E3;&#xFF0C;&#x5426;&#x5219;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;
+         *
+         * newProxyInstance&#x7684;&#x53C2;&#x6570;&#xFF1A;
+         *      ClassLoader&#xFF1A;&#x7C7B;&#x52A0;&#x8F7D;&#x5668;&#xFF0C;&#x7528;&#x4E8E;&#x52A0;&#x8F7D;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x5B57;&#x8282;&#x7801;&#xFF0C;&#x548C;&#x88AB;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x7C7B;&#x52A0;&#x8F7D;&#x5668;&#xFF0C;&#x5373;&#x4EE3;&#x7406;&#x8C01;&#x5C31;&#x5199;&#x8C01;&#x7684;classLoader, &#x56FA;&#x5B9A;&#x5199;&#x6CD5;
+         *      Class[]: &#x5B57;&#x8282;&#x7801;&#x6570;&#x7EC4;&#xFF0C;&#x7528;&#x4E8E;&#x8BA9;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x548C;&#x88AB;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x6709;&#x76F8;&#x540C;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4EE3;&#x7406;&#x8C01;&#x5C31;&#x5199;&#x8C01;&#x7684;getClass().getInterfaces()&#xFF0C; &#x56FA;&#x5B9A;&#x5199;&#x6CD5;
+         *      InvocationHandler: &#x7528;&#x4E8E;&#x589E;&#x5F3A;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x6B64;&#x5904;&#x6211;&#x4EEC;&#x5199;&#x5982;&#x4F55;&#x4EE3;&#x7406;
+         */</span>
+        IProducer proxyProducer = (IProducer) Proxy.newProxyInstance(producer.getClass().getClassLoader(), producer.getClass().getInterfaces(), <span class="hljs-keyword">new</span> InvocationHandler() {
+            <span class="hljs-comment">/**
+             * &#x4F5C;&#x7528;&#xFF1A;&#x6267;&#x884C;&#x88AB;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x7684;&#x4EFB;&#x4F55;&#x63A5;&#x53E3;&#x65B9;&#x6CD5;&#x90FD;&#x4F1A;&#x7ECF;&#x8FC7;&#x8BE5;&#x65B9;&#x6CD5;
+             * <span class="hljs-doctag">@param</span> proxy  &#x4EE3;&#x7406;&#x5BF9;&#x8C61;
+             * <span class="hljs-doctag">@param</span> method &#x5F53;&#x524D;&#x6267;&#x884C;&#x7684;&#x65B9;&#x6CD5;
+             * <span class="hljs-doctag">@param</span> args   &#x5F53;&#x524D;&#x6267;&#x884C;&#x65B9;&#x6CD5;&#x6240;&#x9700;&#x7684;&#x53C2;&#x6570;
+             * <span class="hljs-doctag">@return</span>       &#x548C;&#x88AB;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x6709;&#x76F8;&#x540C;&#x7684;&#x8FD4;&#x56DE;&#x503C;
+             * <span class="hljs-doctag">@throws</span> Throwable
+             */</span>
+            <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">invoke</span><span class="hljs-params">(Object proxy, Method method, Object[] args)</span> <span class="hljs-keyword">throws</span> Throwable </span>{
+                Object returnValue = <span class="hljs-keyword">null</span>;
+
+                <span class="hljs-comment">// &#x63D0;&#x4F9B;&#x589E;&#x5F3A;&#x7684;&#x4EE3;&#x7801;</span>
+                <span class="hljs-comment">// &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x7684;&#x53C2;&#x6570;</span>
+                Float money = (Float)args[<span class="hljs-number">0</span>];
+                <span class="hljs-keyword">if</span> (<span class="hljs-string">&quot;saleProduct&quot;</span>.equals(method.getName())) {
+                    <span class="hljs-comment">// 0.2&#x88AB;&#x9500;&#x552E;&#x62FF;&#x53BB;</span>
+                    returnValue = method.invoke(producer, money*<span class="hljs-number">0.8F</span>);
+                }
+
+                <span class="hljs-comment">// &#x533F;&#x540D;&#x5185;&#x90E8;&#x7C7B;&#x8BBF;&#x95EE;&#x5916;&#x90E8;&#x6210;&#x5458;&#xFF0C;&#x8981;&#x6C42;&#x5916;&#x90E8;&#x6210;&#x5458;&#x662F;final</span>
+                <span class="hljs-keyword">return</span> returnValue;
+            }
+        });
+        proxyProducer.saleProduct(<span class="hljs-number">10000F</span>);
+    }
+}
+</code></pre>
+<h3 id="&#x57FA;&#x4E8E;&#x5B50;&#x7C7B;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;">&#x57FA;&#x4E8E;&#x5B50;&#x7C7B;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;</h3>
+<p>&#x4E0A;&#x9762;&#x662F;&#x57FA;&#x4E8E;&#x63A5;&#x53E3;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#xFF0C;&#x4E0B;&#x9762;&#x6F14;&#x793A;&#x57FA;&#x4E8E;&#x5B50;&#x7C7B;&#x7684;&#x52A8;&#x6001;&#x4EE3;&#x7406;&#xFF0C;&#x5373;&#x8BE5;&#x7C7B;&#x6CA1;&#x6709;&#x5B9E;&#x73B0;&#x4EFB;&#x4F55;&#x63A5;&#x53E3;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x7684;Java&#x7C7B;</p>
+<p><strong>pom.xml</strong></p>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">project</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://maven.apache.org/POM/4.0.0&quot;</span>
+         <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+         <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">modelVersion</span>&gt;</span>4.0.0<span class="hljs-tag">&lt;/<span class="hljs-name">modelVersion</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.example<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>ProxyDemo<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.0-SNAPSHOT<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">packaging</span>&gt;</span>jar<span class="hljs-tag">&lt;/<span class="hljs-name">packaging</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">dependencies</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>cglib<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>cglib<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>2.2.2<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;/<span class="hljs-name">dependencies</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">project</span>&gt;</span>
+</code></pre>
+<p><strong>daliu.cglib.Producer</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> daliu.cglib;
+
+<span class="hljs-comment">/**
+ * &#x751F;&#x4EA7;&#x8005;
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Producer</span> </span>{
+    <span class="hljs-comment">// &#x9500;&#x552E;&#x4EA7;&#x54C1;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">saleProduct</span><span class="hljs-params">(Float money)</span> </span>{
+        System.out.println(<span class="hljs-string">&quot;&#x9500;&#x552E;&#x4EA7;&#x54C1;&#xFF0C;&#x5E76;&#x62FF;&#x5230;&#x94B1;&#xFF1A;&quot;</span> + money);
+    }
+
+    <span class="hljs-comment">// &#x552E;&#x540E;&#x5904;&#x7406;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">afterService</span><span class="hljs-params">(Float money)</span> </span>{
+        System.out.println(<span class="hljs-string">&quot;&#x63D0;&#x4F9B;&#x552E;&#x540E;&#x670D;&#x52A1;&#xFF0C;&#x5E76;&#x62FF;&#x5230;&#x94B1;&#xFF1A;&quot;</span> + money);
+    }
+}
+</code></pre>
+<p><strong>daliu.cglib.Client</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> daliu.cglib;
+
+<span class="hljs-keyword">import</span> net.sf.cglib.proxy.Enhancer;
+<span class="hljs-keyword">import</span> net.sf.cglib.proxy.MethodInterceptor;
+<span class="hljs-keyword">import</span> net.sf.cglib.proxy.MethodProxy;
+
+<span class="hljs-keyword">import</span> java.lang.reflect.Method;
+
+<span class="hljs-comment">/**
+ * &#x6A21;&#x62DF;&#x6D88;&#x8D39;&#x8005;
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Client</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-keyword">final</span> Producer producer = <span class="hljs-keyword">new</span> Producer();
+
+        <span class="hljs-comment">/**
+         * &#x57FA;&#x4E8E;&#x5B50;&#x7C7B;&#x7684;&#x4EE3;&#x7406;&#xFF1A;
+         *      &#x7C7B;&#xFF1A;Enhancer
+         *      &#x63D0;&#x4F9B;&#x8005;&#xFF1A;&#x7B2C;&#x4E09;&#x65B9;cglib&#x5E93;
+         *      &#x521B;&#x5EFA;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#xFF1A;Enhancer&#x4E2D;&#x7684;create&#x65B9;&#x6CD5;
+         *      &#x521B;&#x5EFA;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x7684;&#x8981;&#x6C42;&#xFF1A;&#x88AB;&#x4EE3;&#x7406;&#x7C7B;&#x4E0D;&#x80FD;&#x662F;&#x6700;&#x7EC8;&#x7C7B;
+         *      create&#x65B9;&#x6CD5;&#x7684;&#x53C2;&#x6570;&#xFF1A;
+         *          Class: &#x5B57;&#x8282;&#x7801;&#xFF0C;&#x6307;&#x5B9A;&#x88AB;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;&#x7684;&#x5B57;&#x8282;&#x7801;
+         *          Callback: &#x7528;&#x4E8E;&#x63D0;&#x4F9B;&#x589E;&#x5F3A;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x4E00;&#x822C;&#x5199;&#x7684;&#x90FD;&#x662F;&#x8BE5;&#x63A5;&#x53E3;&#x7684;&#x5B50;&#x63A5;&#x53E3;&#x5B9E;&#x73B0;&#x7C7B;&#xFF1A;MethodInterceptor
+         *          Object[]: &#x53C2;&#x6570;
+         *          methodProxy: &#x5F53;&#x524D;&#x6267;&#x884C;&#x65B9;&#x6CD5;&#x7684;&#x4EE3;&#x7406;&#x5BF9;&#x8C61;
+         */</span>
+        Producer producer2 = (Producer) Enhancer.create(producer.getClass(), <span class="hljs-keyword">new</span> MethodInterceptor() {
+            <span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">intercept</span><span class="hljs-params">(Object o, Method method, Object[] objects, MethodProxy methodProxy)</span> <span class="hljs-keyword">throws</span> Throwable </span>{
+                Object returnValue = <span class="hljs-keyword">null</span>;
+                <span class="hljs-comment">// &#x63D0;&#x4F9B;&#x589E;&#x5F3A;&#x7684;&#x4EE3;&#x7801;</span>
+                <span class="hljs-comment">// &#x83B7;&#x53D6;&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x7684;&#x53C2;&#x6570;</span>
+                Float money = (Float)objects[<span class="hljs-number">0</span>];
+                <span class="hljs-keyword">if</span> (<span class="hljs-string">&quot;saleProduct&quot;</span>.equals(method.getName())) {
+                    <span class="hljs-comment">// 0.2&#x88AB;&#x9500;&#x552E;&#x62FF;&#x53BB;</span>
+                    returnValue = method.invoke(producer, money*<span class="hljs-number">0.8F</span>);
+                }
+
+                <span class="hljs-comment">// &#x533F;&#x540D;&#x5185;&#x90E8;&#x7C7B;&#x8BBF;&#x95EE;&#x5916;&#x90E8;&#x6210;&#x5458;&#xFF0C;&#x8981;&#x6C42;&#x5916;&#x90E8;&#x6210;&#x5458;&#x662F;final</span>
+                <span class="hljs-keyword">return</span> returnValue;
+            }
+        });
+
+        producer2.saleProduct(<span class="hljs-number">10000F</span>);
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="类加载与反射.html" class="navigation navigation-prev " aria-label="Previous page: 类加载与反射">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="OGNL.html" class="navigation navigation-next " aria-label="Next page: OGNL">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"动态代理","level":"1.44","depth":1,"next":{"title":"OGNL","level":"1.45","depth":1,"path":"OGNL.md","ref":"OGNL.md","articles":[]},"previous":{"title":"类加载与反射","level":"1.43","depth":1,"path":"类加载与反射.md","ref":"类加载与反射.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"da liu","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook-daliu-java","gitbook":"*"},"file":{"path":"动态代理.md","mtime":"2020-01-30T09:08:37.494Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-30T14:27:31.455Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,2429 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>事务 · gitbook-daliu-java</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="da liu">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="连接池.html" />
+    
+    
+    <link rel="prev" href="RowSet.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../常识.html">
+            
+                <a href="../常识.html">
+            
+                    
+                    常识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../数组.html">
+            
+                <a href="../数组.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../String.html">
+            
+                <a href="../String.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../CLASSPATH.html">
+            
+                <a href="../CLASSPATH.html">
+            
+                    
+                    CLASSPATH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../命令.html">
+            
+                <a href="../命令.html">
+            
+                    
+                    命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../可变参.html">
+            
+                <a href="../可变参.html">
+            
+                    
+                    可变参
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../集合/简介.html">
+            
+                <a href="../集合/简介.html">
+            
+                    
+                    集合
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../集合/简介.html">
+            
+                <a href="../集合/简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../集合/LinkedList.html">
+            
+                <a href="../集合/LinkedList.html">
+            
+                    
+                    LinkedList
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../集合/HashSet.html">
+            
+                <a href="../集合/HashSet.html">
+            
+                    
+                    HashSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../集合/LinkedHashSet.html">
+            
+                <a href="../集合/LinkedHashSet.html">
+            
+                    
+                    LinkedHashSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../集合/LinkedHashMap.html">
+            
+                <a href="../集合/LinkedHashMap.html">
+            
+                    
+                    LinkedHashMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Overload_Override.html">
+            
+                <a href="../Overload_Override.html">
+            
+                    
+                    Overload_Override
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../访问修饰符.html">
+            
+                <a href="../访问修饰符.html">
+            
+                    
+                    访问修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../包.html">
+            
+                <a href="../包.html">
+            
+                    
+                    包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../构造函数.html">
+            
+                <a href="../构造函数.html">
+            
+                    
+                    构造函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../instanceof.html">
+            
+                <a href="../instanceof.html">
+            
+                    
+                    instanceof
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../初始化块.html">
+            
+                <a href="../初始化块.html">
+            
+                    
+                    初始化块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../包装类.html">
+            
+                <a href="../包装类.html">
+            
+                    
+                    包装类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../==和equals.html">
+            
+                <a href="../==和equals.html">
+            
+                    
+                    ==和equals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../单例.html">
+            
+                <a href="../单例.html">
+            
+                    
+                    单例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../缓存不可变类.html">
+            
+                <a href="../缓存不可变类.html">
+            
+                    
+                    缓存不可变类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../抽象类.html">
+            
+                <a href="../抽象类.html">
+            
+                    
+                    抽象类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../接口.html">
+            
+                <a href="../接口.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../命令模式.html">
+            
+                <a href="../命令模式.html">
+            
+                    
+                    命令模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../内部类.html">
+            
+                <a href="../内部类.html">
+            
+                    
+                    内部类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../函数式接口/函数式接口.html">
+            
+                <a href="../函数式接口/函数式接口.html">
+            
+                    
+                    函数式接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.23.1" data-path="../函数式接口/Lambda语法.html">
+            
+                <a href="../函数式接口/Lambda语法.html">
+            
+                    
+                    Lambda语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.2" data-path="../函数式接口/延迟执行.html">
+            
+                <a href="../函数式接口/延迟执行.html">
+            
+                    
+                    延迟执行
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.3" data-path="../函数式接口/Labmda参数和返回值.html">
+            
+                <a href="../函数式接口/Labmda参数和返回值.html">
+            
+                    
+                    Labmda参数和返回值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.4" data-path="../函数式接口/Supplier.html">
+            
+                <a href="../函数式接口/Supplier.html">
+            
+                    
+                    Supplier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.5" data-path="../函数式接口/Consumer.html">
+            
+                <a href="../函数式接口/Consumer.html">
+            
+                    
+                    Consumer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.6" data-path="../函数式接口/Predicate.html">
+            
+                <a href="../函数式接口/Predicate.html">
+            
+                    
+                    Predicate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.7" data-path="../函数式接口/Function.html">
+            
+                <a href="../函数式接口/Function.html">
+            
+                    
+                    Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23.8" data-path="../函数式接口/方法引用.html">
+            
+                <a href="../函数式接口/方法引用.html">
+            
+                    
+                    方法引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../Stream流思想/Stream流思想.html">
+            
+                <a href="../Stream流思想/Stream流思想.html">
+            
+                    
+                    Stream流思想
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.24.1" data-path="../Stream流思想/获取流.html">
+            
+                <a href="../Stream流思想/获取流.html">
+            
+                    
+                    获取流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24.2" data-path="../Stream流思想/常用方法.html">
+            
+                <a href="../Stream流思想/常用方法.html">
+            
+                    
+                    常用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24.3" data-path="../Stream流思想/示例.html">
+            
+                <a href="../Stream流思想/示例.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../枚举类.html">
+            
+                <a href="../枚举类.html">
+            
+                    
+                    枚举类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../内存管理.html">
+            
+                <a href="../内存管理.html">
+            
+                    
+                    内存管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../JAR.html">
+            
+                <a href="../JAR.html">
+            
+                    
+                    JAR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../泛型.html">
+            
+                <a href="../泛型.html">
+            
+                    
+                    泛型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../异常.html">
+            
+                <a href="../异常.html">
+            
+                    
+                    异常
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../JavaBean.html">
+            
+                <a href="../JavaBean.html">
+            
+                    
+                    JavaBean
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../File与IO流/File.html">
+            
+                <a href="../File与IO流/File.html">
+            
+                    
+                    File与IO流
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.31.1" data-path="../File与IO流/File.html">
+            
+                <a href="../File与IO流/File.html">
+            
+                    
+                    File
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.2" data-path="../File与IO流/文件搜索.html">
+            
+                <a href="../File与IO流/文件搜索.html">
+            
+                    
+                    文件搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.3" data-path="../File与IO流/文件过滤.html">
+            
+                <a href="../File与IO流/文件过滤.html">
+            
+                    
+                    文件过滤
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.4" data-path="../File与IO流/IO流体系.html">
+            
+                <a href="../File与IO流/IO流体系.html">
+            
+                    
+                    IO流体系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.5" data-path="../File与IO流/字节流.html">
+            
+                <a href="../File与IO流/字节流.html">
+            
+                    
+                    字节流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.6" data-path="../File与IO流/字符流.html">
+            
+                <a href="../File与IO流/字符流.html">
+            
+                    
+                    字符流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.7" data-path="../File与IO流/转换流.html">
+            
+                <a href="../File与IO流/转换流.html">
+            
+                    
+                    转换流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.8" data-path="../File与IO流/缓冲流.html">
+            
+                <a href="../File与IO流/缓冲流.html">
+            
+                    
+                    缓冲流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.9" data-path="../File与IO流/序列化流.html">
+            
+                <a href="../File与IO流/序列化流.html">
+            
+                    
+                    序列化流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.10" data-path="../File与IO流/打印流.html">
+            
+                <a href="../File与IO流/打印流.html">
+            
+                    
+                    打印流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31.11" data-path="../File与IO流/Properties.html">
+            
+                <a href="../File与IO流/Properties.html">
+            
+                    
+                    Properties
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../序列化与反序列化/">
+            
+                <a href="../序列化与反序列化/">
+            
+                    
+                    序列化与反序列化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.32.1" data-path="../序列化与反序列化/Serializable示例.html">
+            
+                <a href="../序列化与反序列化/Serializable示例.html">
+            
+                    
+                    Serializable示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.2" data-path="../序列化与反序列化/对象引用的序列化.html">
+            
+                <a href="../序列化与反序列化/对象引用的序列化.html">
+            
+                    
+                    对象引用的序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.3" data-path="../序列化与反序列化/Java9过滤功能.html">
+            
+                <a href="../序列化与反序列化/Java9过滤功能.html">
+            
+                    
+                    Java9过滤功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.4" data-path="../序列化与反序列化/transient.html">
+            
+                <a href="../序列化与反序列化/transient.html">
+            
+                    
+                    transient
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.5" data-path="../序列化与反序列化/自定义序列化.html">
+            
+                <a href="../序列化与反序列化/自定义序列化.html">
+            
+                    
+                    自定义序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.6" data-path="../序列化与反序列化/writeReplace.html">
+            
+                <a href="../序列化与反序列化/writeReplace.html">
+            
+                    
+                    writeReplace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.7" data-path="../序列化与反序列化/readResolve.html">
+            
+                <a href="../序列化与反序列化/readResolve.html">
+            
+                    
+                    readResolve
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.8" data-path="../序列化与反序列化/Externalizable.html">
+            
+                <a href="../序列化与反序列化/Externalizable.html">
+            
+                    
+                    Externalizable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.9" data-path="../序列化与反序列化/版本.html">
+            
+                <a href="../序列化与反序列化/版本.html">
+            
+                    
+                    版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32.10" data-path="../序列化与反序列化/注意事项.html">
+            
+                <a href="../序列化与反序列化/注意事项.html">
+            
+                    
+                    注意事项
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../AWT.html">
+            
+                <a href="../AWT.html">
+            
+                    
+                    AWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../Swing.html">
+            
+                <a href="../Swing.html">
+            
+                    
+                    Swing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../SWT.html">
+            
+                <a href="../SWT.html">
+            
+                    
+                    SWT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../JDBC和MySQL.html">
+            
+                <a href="../JDBC和MySQL.html">
+            
+                    
+                    JDBC和MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../MySQL/">
+            
+                <a href="../MySQL/">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    JDBC
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.38.1" data-path="配置.html">
+            
+                <a href="配置.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.2" data-path="常用类.html">
+            
+                <a href="常用类.html">
+            
+                    
+                    常用类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.3" data-path="ResultSet.html">
+            
+                <a href="ResultSet.html">
+            
+                    
+                    ResultSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.4" data-path="存储过程.html">
+            
+                <a href="存储过程.html">
+            
+                    
+                    存储过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.5" data-path="封装示例.html">
+            
+                <a href="封装示例.html">
+            
+                    
+                    封装示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.6" data-path="PreparedStatement.html">
+            
+                <a href="PreparedStatement.html">
+            
+                    
+                    PreparedStatement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.7" data-path="Blob.html">
+            
+                <a href="Blob.html">
+            
+                    
+                    Blob
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.8" data-path="ResultMetaData.html">
+            
+                <a href="ResultMetaData.html">
+            
+                    
+                    ResultMetaData
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.9" data-path="DatabaseMetadata.html">
+            
+                <a href="DatabaseMetadata.html">
+            
+                    
+                    DatabaseMetadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.10" data-path="RowSet.html">
+            
+                <a href="RowSet.html">
+            
+                    
+                    RowSet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.38.11" data-path="事务.html">
+            
+                <a href="事务.html">
+            
+                    
+                    事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.12" data-path="连接池.html">
+            
+                <a href="连接池.html">
+            
+                    
+                    连接池
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38.13" data-path="JDbcTemplate.html">
+            
+                <a href="JDbcTemplate.html">
+            
+                    
+                    JDbcTemplate
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../Annotation.html">
+            
+                <a href="../Annotation.html">
+            
+                    
+                    Annotation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../输入输出.html">
+            
+                <a href="../输入输出.html">
+            
+                    
+                    输入输出
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="../线程/简介.html">
+            
+                <a href="../线程/简介.html">
+            
+                    
+                    线程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.1" data-path="../线程/简介.html">
+            
+                <a href="../线程/简介.html">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2" data-path="../线程/线程创建/Thread.html">
+            
+                <a href="../线程/线程创建/Thread.html">
+            
+                    
+                    线程创建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.2.1" data-path="../线程/线程创建/Thread.html">
+            
+                <a href="../线程/线程创建/Thread.html">
+            
+                    
+                    Thread
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.2" data-path="../线程/线程创建/Runnable.html">
+            
+                <a href="../线程/线程创建/Runnable.html">
+            
+                    
+                    Runnable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.3" data-path="../线程/线程创建/Callable.html">
+            
+                <a href="../线程/线程创建/Callable.html">
+            
+                    
+                    Callable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.2.4" data-path="../线程/线程创建/匿名方式线程.html">
+            
+                <a href="../线程/线程创建/匿名方式线程.html">
+            
+                    
+                    匿名方式线程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3" data-path="../线程/线程安全/线程安全.html">
+            
+                <a href="../线程/线程安全/线程安全.html">
+            
+                    
+                    线程安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.3.1" data-path="../线程/线程安全/同步代码块.html">
+            
+                <a href="../线程/线程安全/同步代码块.html">
+            
+                    
+                    同步代码块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.2" data-path="../线程/线程安全/同步方法.html">
+            
+                <a href="../线程/线程安全/同步方法.html">
+            
+                    
+                    同步方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.3" data-path="../线程/线程安全/静态同步方法.html">
+            
+                <a href="../线程/线程安全/静态同步方法.html">
+            
+                    
+                    静态同步方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.3.4" data-path="../线程/线程安全/Lock.html">
+            
+                <a href="../线程/线程安全/Lock.html">
+            
+                    
+                    Lock
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.4" data-path="../线程/线程状态/线程状态.html">
+            
+                <a href="../线程/线程状态/线程状态.html">
+            
+                    
+                    线程状态
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.4.1" data-path="../线程/线程状态/TimedWaiting.html">
+            
+                <a href="../线程/线程状态/TimedWaiting.html">
+            
+                    
+                    TimedWaiting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.5" data-path="../线程/线程通信/线程通知.html">
+            
+                <a href="../线程/线程通信/线程通知.html">
+            
+                    
+                    线程通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.41.5.1" data-path="../线程/线程通信/线程通知.html">
+            
+                <a href="../线程/线程通信/线程通知.html">
+            
+                    
+                    线程通知
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.5.2" data-path="../线程/线程通信/生产者消费者.html">
+            
+                <a href="../线程/线程通信/生产者消费者.html">
+            
+                    
+                    生产者消费者
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41.6" data-path="../线程/线程池/线程池.html">
+            
+                <a href="../线程/线程池/线程池.html">
+            
+                    
+                    线程池
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="../Runtime.html">
+            
+                <a href="../Runtime.html">
+            
+                    
+                    Runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="../类加载与反射.html">
+            
+                <a href="../类加载与反射.html">
+            
+                    
+                    类加载与反射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="../动态代理.html">
+            
+                <a href="../动态代理.html">
+            
+                    
+                    动态代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="../OGNL.html">
+            
+                <a href="../OGNL.html">
+            
+                    
+                    OGNL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="../网络编程/TCP.html">
+            
+                <a href="../网络编程/TCP.html">
+            
+                    
+                    网络编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.46.1" data-path="../网络编程/TCP.html">
+            
+                <a href="../网络编程/TCP.html">
+            
+                    
+                    TCP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.2" data-path="../网络编程/TCP客户端.html">
+            
+                <a href="../网络编程/TCP客户端.html">
+            
+                    
+                    TCP客户端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.3" data-path="../网络编程/TCP服务端.html">
+            
+                <a href="../网络编程/TCP服务端.html">
+            
+                    
+                    TCP服务端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.4" data-path="../网络编程/文件上传示例.html">
+            
+                <a href="../网络编程/文件上传示例.html">
+            
+                    
+                    文件上传示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46.5" data-path="../网络编程/BS服务器示例.html">
+            
+                <a href="../网络编程/BS服务器示例.html">
+            
+                    
+                    BS服务器示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47" data-path="../Junit.html">
+            
+                <a href="../Junit.html">
+            
+                    
+                    Junit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48" data-path="../类加载与反射/类加载与反射反射.html">
+            
+                <a href="../类加载与反射/类加载与反射反射.html">
+            
+                    
+                    类加载与反射
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.48.1" data-path="../类加载与反射/类的加载.html">
+            
+                <a href="../类加载与反射/类的加载.html">
+            
+                    
+                    类的加载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48.2" data-path="../类加载与反射/类加载器.html">
+            
+                <a href="../类加载与反射/类加载器.html">
+            
+                    
+                    类加载器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48.3" data-path="../类加载与反射/自定义类加载器.html">
+            
+                <a href="../类加载与反射/自定义类加载器.html">
+            
+                    
+                    自定义类加载器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >事务</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E8B;&#x52A1;">&#x4E8B;&#x52A1;</h1>
+<p>&#x4E8B;&#x52A1;&#x5177;&#x5907;4&#x4E2A;&#x7279;&#x6027;&#xFF0C;&#x4E5F;&#x53EB;ACID&#x6027;&#xFF1A;</p>
+<ul>
+<li>&#x539F;&#x5B50;&#x6027;(Atomicity): &#x6700;&#x5C0F;&#x6267;&#x884C;&#x5355;&#x4F4D;&#xFF0C;&#x4E0D;&#x53EF;&#x518D;&#x5206;</li>
+<li>&#x4E00;&#x81F4;&#x6027;(Consistency): &#x6570;&#x636E;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x5FC5;&#x987B;&#x4ECE;&#x4E00;&#x4E2A;&#x4E00;&#x81F4;&#x6027;&#x72B6;&#x6001;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x4E00;&#x81F4;&#x6027;&#x72B6;&#x6001;&#xFF0C;&#x6BD4;&#x5982;&#x94F6;&#x884C;&#x8F6C;&#x5E10;&#xFF0C;&#x4ECE;A&#x5E10;&#x6237;&#x5411;B&#x5E10;&#x6237;&#x8F6C;&#x5165;1000&#x5143;&#xFF0C;&#x7CFB;&#x7EDF;&#x5148;&#x4ECE;A&#x4E2D;&#x6263;&#x9664;100&#x5143;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x4E3A;B&#x589E;&#x52A0;1000&#x5143;&#xFF0C;&#x5982;&#x679C;&#x5168;&#x90E8;&#x6267;&#x884C;&#x6210;&#x529F;&#xFF0C;&#x6570;&#x636E;&#x5E93;&#x5904;&#x7406;&#x4E00;&#x81F4;&#x6027;&#x72B6;&#x6001;&#xFF1B;&#x5982;&#x679C;&#x4EC5;&#x6267;&#x884C;&#x5B8C;A&#x5E10;&#x6237;&#x7684;&#x4FEE;&#x6539;&#xFF0C;&#x672A;&#x589E;&#x52A0;B&#x5E10;&#x6237;&#x7684;&#x91D1;&#x989D;&#xFF0C;&#x5219;&#x6570;&#x636E;&#x5E93;&#x5904;&#x4E8E;&#x4E0D;&#x4E00;&#x81F4;&#x72B6;&#x6001;&#xFF1B;&#x56E0;&#x6B64;&#xFF0C;&#x4E00;&#x81F4;&#x6027;&#x662F;&#x901A;&#x8FC7;&#x539F;&#x5B50;&#x6027;&#x6765;&#x4FDD;&#x8BC1;&#x7684;</li>
+<li>&#x9694;&#x79BB;&#x6027;(Isolation): &#x5404;&#x4E2A;&#x4E8B;&#x52A1;&#x7684;&#x6267;&#x884C;&#x4E92;&#x4E0D;&#x5E72;&#x6270;&#xFF0C;&#x5E76;&#x53D1;&#x6267;&#x884C;&#x7684;&#x4E8B;&#x52A1;&#x4E4B;&#x95F4;&#x4E0D;&#x80FD;&#x4E92;&#x76F8;&#x5F71;&#x54CD;</li>
+<li>&#x6301;&#x7EED;&#x6027;(Durability): &#x5373;&#x6301;&#x4E45;&#x6027;Persistence&#xFF0C;&#x6307;&#x4E8B;&#x52A1;&#x4E00;&#x65E6;&#x63D0;&#x4EA4;&#xFF0C;&#x5BF9;&#x6570;&#x636E;&#x6240;&#x505A;&#x7684;&#x4EFB;&#x4F55;&#x6539;&#x53D8;&#x90FD;&#x8981;&#x8BB0;&#x5F55;&#x5230;&#x6C38;&#x4E45;&#x5B58;&#x50A8;&#x5668;&#x4E2D;&#xFF0C;&#x901A;&#x5E38;&#x5C31;&#x662F;&#x4FDD;&#x5B58;&#x8FDB;&#x7269;&#x7406;&#x6570;&#x636E;&#x5E93;</li>
+</ul>
+<p>&#x4E8B;&#x52A1;&#x63D0;&#x4EA4;&#xFF1A;  </p>
+<ol>
+<li>&#x663E;&#x5F0F;&#x63D0;&#x4EA4;&#xFF1A;commit</li>
+<li>&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF1A;&#x6267;&#x884C;insert, update&#x7B49;sql&#x8BED;&#x53E5;&#xFF0C;&#x6216;&#x7A0B;&#x5E8F;&#x6B63;&#x5E38;&#x9000;&#x51FA;</li>
+</ol>
+<p>&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x548C;&#x5F00;&#x542F;&#x4E8B;&#x52A1;&#x662F;&#x76F8;&#x53CD;&#x7684;&#xFF0C;&#x5373;&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x5C31;&#x662F;&#x5173;&#x95ED;&#x4E8B;&#x52A1;&#xFF1B;&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x5C31;&#x662F;&#x5F00;&#x542F;&#x4E8B;&#x52A1;&#x3002;MySQL&#x9ED8;&#x8BA4;&#x5173;&#x95ED;&#x4E8B;&#x52A1;&#xFF08;&#x5373;&#x6253;&#x5F00;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF09;&#xFF0C;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;MySQL&#x63A7;&#x5236;&#x53F0;&#x8F93;&#x5165;&#x4E00;&#x6761;sql&#x8BED;&#x53E5;&#x4F1A;&#x7ACB;&#x5373;&#x4FDD;&#x5B58;&#x5230;&#x6570;&#x636E;&#x5E93;&#x91CC;&#x3002;
+&#x53EF;&#x662F;&#x5F00;&#x542F;&#x4E8B;&#x52A1;&#xFF1A;</p>
+<pre><code class="lang-sql">connection.setAutoCommit(true&#x6216;&#x8005;false); // false&#xFF1A;&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x5F00;&#x542F;&#x4E8B;&#x52A1;
+// <span class="hljs-keyword">set</span> autocommit = { <span class="hljs-number">0</span> | <span class="hljs-number">1</span> } // <span class="hljs-number">0</span>&#xFF1A;&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x5F00;&#x542F;&#x4E8B;&#x52A1;
+</code></pre>
+<p>&#x6CE8;&#xFF1A;&#x4E00;&#x4E2A;MySQL&#x547D;&#x4EE4;&#x884C;&#x7A97;&#x53E3;&#x4EE3;&#x8868;&#x4E00;&#x6B21;&#x8FDE;&#x63A5;Session, &#x5728;&#x8BE5;&#x7A97;&#x53E3;&#x91CC;&#x8BBE;&#x7F6E;set autocommit=0, &#x76F8;&#x5F53;&#x4E8E;&#x5173;&#x95ED;&#x4E86;&#x8BE5;&#x8FDE;&#x63A5;session&#x7684;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x5BF9;&#x5176;&#x4ED6;&#x8FDE;&#x63A5;&#x4E0D;&#x4F1A;&#x6709;&#x4EFB;&#x4F55;&#x5F71;&#x54CD;&#x3002;</p>
+<p>&#x56DE;&#x6EDA;&#xFF1A;  </p>
+<ol>
+<li>&#x663E;&#x5F0F;&#x56DE;&#x6EDA;&#xFF1A;rollback</li>
+<li>&#x81EA;&#x52A8;&#x56DE;&#x6EDA;&#xFF1A;&#x7CFB;&#x7EDF;&#x9519;&#x8BEF;&#x6216;&#x5F3A;&#x5236;&#x9000;&#x51FA;</li>
+</ol>
+<p>&#x5982;&#x679C;&#x4E0D;&#x60F3;&#x5173;&#x95ED;&#x6574;&#x4E2A;&#x547D;&#x4EE4;&#x884C;&#x7A97;&#x53E3;&#x7684;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;begin&#x6216;start transaction&#x4E34;&#x65F6;&#x5F00;&#x59CB;&#x4E8B;&#x52A1;, &#x5904;&#x7406;start transaction&#x6216;begin&#x540E;&#x7684;DML&#x8BED;&#x53E5;&#x4E0D;&#x4F1A;&#x7ACB;&#x5373;&#x751F;&#x6548;&#xFF0C;&#x8981;&#x751F;&#x6548;&#x9700;&#x8981;&#x4F7F;&#x7528;commit&#x663E;&#x5F0F;&#x63D0;&#x4EA4;&#x4E8B;&#x52A1;&#xFF0C;&#x5982;&#x4E0B;SQL&#x4EE3;&#x7801;&#x5C06;&#x4E0D;&#x4F1A;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x6709;&#x4EFB;&#x4F55;&#x5F71;&#x54CD;&#xFF1A;</p>
+<pre><code class="lang-sql">mysql&gt; delimiter //
+mysql&gt; # &#x4E34;&#x65F6;&#x5F00;&#x542F;&#x4E8B;&#x52A1;
+mysql&gt; begin;
+    -&gt; insert into student values
+    -&gt; (null, &apos;daliu_2&apos;, &apos;chinese&apos;, 200.0, &apos;302&apos;, &apos;2&apos;);
+    -&gt; select * from student;
+    -&gt; # &#x56DE;&#x6EDA;&#x4E8B;&#x52A1;
+    -&gt; rollback;
+    -&gt; # &#x518D;&#x6B21;&#x67E5;&#x8BE2;
+    -&gt; select * from student;
+    -&gt; //
+</code></pre>
+<p>&#x63D0;&#x4EA4;&#x548C;&#x56DE;&#x6EDA;&#x90FD;&#x4F1A;&#x7ED3;&#x675F;&#x5F53;&#x524D;&#x4E8B;&#x52A1;&#x3002;</p>
+<p>JDBC&#x5BF9;&#x4E8B;&#x52A1;&#x7684;&#x652F;&#x6301;&#xFF1A;</p>
+<pre><code class="lang-java">conn.setAutoCommit(<span class="hljs-keyword">false</span>); <span class="hljs-comment">// &#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x5F00;&#x542F;&#x4E8B;&#x52A1;</span>
+stmt.executeUpdate(...); <span class="hljs-comment">// &#x6267;&#x884C;DML&#x8BED;&#x53E5;</span>
+conn.commit(); <span class="hljs-comment">// &#x63D0;&#x4EA4;&#x4E8B;&#x52A1;</span>
+conn.rollback();
+</code></pre>
+<p><strong>&#x6CE8;&#xFF1A;</strong>&#x5F53;Connection&#x9047;&#x5230;&#x4E00;&#x4E2A;&#x672A;&#x5904;&#x7406;&#x7684;SQLException&#x5F02;&#x5E38;&#x65F6;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x975E;&#x6B63;&#x5E38;&#x9000;&#x51FA;&#xFF0C;&#x4E8B;&#x52A1;&#x4E5F;&#x4F1A;&#x81EA;&#x52A8;&#x56DE;&#x6EDA;&#x3002;&#x4F46;&#x5982;&#x679C;&#x7A0B;&#x5E8F;&#x6355;&#x83B7;&#x4E86;&#x8BE5;&#x5F02;&#x5E38;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x5728;&#x5F02;&#x5E38;&#x5757;&#x4E2D;&#x663E;&#x5F0F;&#x7684;&#x56DE;&#x6EDA;&#x4E8B;&#x52A1;&#x3002;</p>
+<h3 id="&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-java"><span class="hljs-keyword">package</span> cn.com.jdbc;
+
+<span class="hljs-keyword">import</span> java.sql.Connection;
+<span class="hljs-keyword">import</span> java.sql.PreparedStatement;
+<span class="hljs-keyword">import</span> java.sql.SQLException;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TransactionDemo</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Connection conn = <span class="hljs-keyword">null</span>;
+        PreparedStatement pstmt1 = <span class="hljs-keyword">null</span>;
+        PreparedStatement pstmt2 = <span class="hljs-keyword">null</span>;
+        <span class="hljs-keyword">try</span> {
+            conn = JDBCUtils.getConnection();
+            <span class="hljs-comment">// &#x8F6C;&#x5E10;: &#x628A;aaa&#x7684;500&#x5143;&#x8F6C;&#x7ED9;bbb</span>
+            <span class="hljs-comment">// aaa&#x7684;&#x94B1; - 500</span>
+            <span class="hljs-comment">// bbb&#x7684;&#x94B1; + 500</span>
+
+            conn.setAutoCommit(<span class="hljs-keyword">false</span>); <span class="hljs-comment">// &#x5F00;&#x542F;&#x4E8B;&#x52A1;</span>
+
+            String sql1 = <span class="hljs-string">&quot;update account set money = money - ? where name = ?&quot;</span>;
+            String sql2 = <span class="hljs-string">&quot;update account set money = money + ? where name = ?&quot;</span>;
+            pstmt1 = conn.prepareStatement(sql1);
+            pstmt2 = conn.prepareStatement(sql2);
+            pstmt1.setFloat(<span class="hljs-number">1</span>, <span class="hljs-number">500</span>);
+            pstmt1.setString(<span class="hljs-number">2</span>, <span class="hljs-string">&quot;aaa&quot;</span>);
+            pstmt1.executeUpdate();
+
+            <span class="hljs-comment">// &#x624B;&#x52A8;&#x5236;&#x9020;&#x5F02;&#x5E38;</span>
+            <span class="hljs-keyword">int</span> i = <span class="hljs-number">3</span>/<span class="hljs-number">0</span>;
+
+            pstmt2.setFloat(<span class="hljs-number">1</span>, <span class="hljs-number">500</span>);
+            pstmt2.setString(<span class="hljs-number">2</span>, <span class="hljs-string">&quot;bbb&quot;</span>);
+            pstmt2.executeUpdate();
+
+            conn.commit(); <span class="hljs-comment">// &#x63D0;&#x4EA4;&#x4E8B;&#x52A1;</span>
+        } <span class="hljs-keyword">catch</span> (SQLException e) {
+            e.printStackTrace();
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-keyword">if</span> (conn != <span class="hljs-keyword">null</span>) {
+                   conn.rollback(); <span class="hljs-comment">// &#x5982;&#x679C;&#x53D1;&#x751F;&#x5F02;&#x5E38;, &#x56DE;&#x6EDA;</span>
+                }
+            } <span class="hljs-keyword">catch</span> (SQLException ex) {
+                ex.printStackTrace();
+            }
+        } <span class="hljs-keyword">finally</span> {
+            JDBCUtils.close(pstmt1, conn);
+            JDBCUtils.close(pstmt2, <span class="hljs-keyword">null</span>);
+        }
+    }
+}
+</code></pre>
+<h3 id="&#x518D;&#x6B21;&#x793A;&#x4F8B;">&#x518D;&#x6B21;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-sql">mysql&gt; desc user;
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | int(11)      | NO   | PRI | NULL    | auto_increment |
+| username | varchar(32)  | NO   |     | NULL    |                |
+| birthday | datetime     | YES  |     | NULL    |                |
+| sex      | char(1)      | YES  |     | NULL    |                |
+| address  | varchar(256) | YES  |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+</code></pre>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- pom.xml --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>mysql<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>mysql-connector-java<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>8.0.17<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">// -- MySQLInfo.java --</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MySQLInfo</span> </span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String driver =<span class="hljs-string">&quot;com.mysql.cj.jdbc.Driver&quot;</span>; <span class="hljs-comment">// &#x4F7F;&#x7528;8.x&#x7248;&#x672C;&#x9A71;&#x52A8;</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String url = <span class="hljs-string">&quot;jdbc:mysql://127.0.0.1:3306/daliu?characterEncoding=utf-8&amp;useSSL=false&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String user = <span class="hljs-string">&quot;root&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String pass = <span class="hljs-string">&quot;daliu8807&quot;</span>;
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">// -- TransactionTest.java --</span>
+
+<span class="hljs-keyword">import</span> java.sql.Connection;
+<span class="hljs-keyword">import</span> java.sql.DriverManager;
+<span class="hljs-keyword">import</span> java.sql.Statement;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TransactionTest</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertInTransaction</span><span class="hljs-params">(String[] sqls)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        Class.forName(MySQLInfo.driver);
+        <span class="hljs-keyword">try</span> (
+                Connection conn = DriverManager.getConnection(MySQLInfo.url, MySQLInfo.user, MySQLInfo.pass);
+                Statement stmt = conn.createStatement();
+                ) {
+            <span class="hljs-comment">// &#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x3001;&#x5F00;&#x542F;&#x4E8B;&#x52A1;</span>
+            conn.setAutoCommit(<span class="hljs-keyword">false</span>);
+            <span class="hljs-keyword">for</span> (String sql : sqls) {
+                stmt.executeUpdate(sql);
+            }
+            conn.commit();
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        TransactionTest manage = <span class="hljs-keyword">new</span> TransactionTest();
+        String[] sqls = <span class="hljs-keyword">new</span> String[] {
+            <span class="hljs-string">&quot;insert into user values(null, &apos;&#x5218;1&#x5200;&apos;, &apos;2016-02-27 16:13:09&apos;, &apos;1&apos;, &apos;&#x4E91;&#x5357;&#x6606;&#x660E;&apos;)&quot;</span>,
+            <span class="hljs-string">&quot;insert into user values(null, &apos;&#x5218;2&#x5200;&apos;, &apos;2012-02-27 07:23:09&apos;, &apos;0&apos;, &apos;&#x4E91;&#x5357;&#x6606;&#x660E;&apos;)&quot;</span>,
+            <span class="hljs-string">&quot;insert into user values(null, &apos;&#x5218;3&#x5200;&apos;, &apos;2016-02-27 07:23:09&apos;, &apos;1&apos;, &apos;&#x4E91;&#x5357;&#x6606;&#x660E;&apos;)&quot;</span>,
+            <span class="hljs-string">&quot;insert into user values(null, &apos;&#x5218;4&#x5200;&apos;, &apos;2017-02-27 10:23:09&apos;, &apos;0&apos;, &apos;&#x4E91;&#x5357;&#x6606;&#x660E;&apos;)&quot;</span>,
+            <span class="hljs-string">&quot;insert into user values(null, &apos;&#x5218;5&#x5200;&apos;, &apos;2019-02-27 22:23:09&apos;, &apos;boy&apos;, &apos;&#x4E91;&#x5357;&#x6606;&#x660E;&apos;)&quot;</span>,
+        };
+        manage.insertInTransaction(sqls);
+        <span class="hljs-comment">// &#x7531;&#x4E8E;sex&#x7684;&#x7C7B;&#x578B;&#x4E3A;char(1)&#xFF0C;&#x56E0;&#x6B64;&#x6700;&#x540E;&#x4E00;&#x6761;insert&#x8BED;&#x53E5;&#x7684;sex&#x503C;&apos;boy&apos;&#x8D85;&#x8FC7;&#x8BBE;&#x5B9A;&#x957F;&#x5EA6;:</span>
+        <span class="hljs-comment">// com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column &apos;sex&apos; at row 1</span>
+        <span class="hljs-comment">// &#x7531;&#x4E8E;&#x6CA1;&#x6709;catch&#x6355;&#x83B7;&#x5F02;&#x5E38;&#xFF0C;&#x5F15;&#x8D77;&#x7A0B;&#x5E8F;&#x975E;&#x6B63;&#x5E38;&#x7ED3;&#x675F;&#xFF0C;&#x4E8B;&#x52A1;&#x81EA;&#x52A8;&#x56DE;&#x6EDA;</span>
+        <span class="hljs-comment">// &#x67E5;&#x8BE2;&#x8868;&#x683C;&#x53D1;&#x73B0;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6570;&#x636E;&#x63D2;&#x5165;</span>
+    }
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x662F;SQL&#x5F02;&#x5E38;&#x5F15;&#x8D77;&#x4E8B;&#x52A1;&#x81EA;&#x52A8;&#x56DE;&#x6EDA;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x518D;&#x770B;&#x4E00;&#x4E2A;&#x624B;&#x52A8;&#x56DE;&#x6EDA;&#x793A;&#x4F8B;&#xFF0C;&#x5047;&#x8BBE;&#x4E24;&#x4E2A;&#x8868;&#x683C;employee&#x548C;address, &#x8981;&#x6C42;employee&#x8868;&#x4E2D;&#x7684;&#x96C7;&#x5458;&#x5FC5;&#x987B;&#x6709;&#x5730;&#x5740;&#x4FE1;&#x606F;&#x3002;</p>
+<pre><code class="lang-java">
+<span class="hljs-comment">/*
+  -- address --
+     +---------+-------------+------+-----+---------+-------+
+     | Field   | Type        | Null | Key | Default | Extra |
+     +---------+-------------+------+-----+---------+-------+
+     | empId   | int(11)     | NO   | PRI | NULL    |       |
+     | address | varchar(20) | YES  |     | NULL    |       |
+     | city    | varchar(5)  | YES  |     | NULL    |       |
+     | country | varchar(20) | YES  |     | NULL    |       |
+     +---------+-------------+------+-----+---------+-------+
+
+     -- employee --
+     +-------+--------------+------+-----+---------+-------+
+     | Field | Type         | Null | Key | Default | Extra |
+     +-------+--------------+------+-----+---------+-------+
+     | empId | int(11)      | NO   | PRI | NULL    |       |
+     | name  | varchar(255) | YES  |     | NULL    |       |
+     +-------+--------------+------+-----+---------+-------+
+*/</span>
+
+<span class="hljs-comment">// -- DBConnection.java --</span>
+<span class="hljs-keyword">import</span> java.sql.Connection;
+<span class="hljs-keyword">import</span> java.sql.DriverManager;
+<span class="hljs-keyword">import</span> java.sql.SQLException;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DBConnection</span> </span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String driver =<span class="hljs-string">&quot;com.mysql.cj.jdbc.Driver&quot;</span>; <span class="hljs-comment">// &#x4F7F;&#x7528;8.x&#x7248;&#x672C;&#x9A71;&#x52A8;</span>
+    <span class="hljs-comment">// public static String driver = &quot;com.mysql.jdbc.Driver&quot;; // &#x4F7F;&#x7528;&#x8001;&#x7248;&#x672C;&#x9A71;&#x52A8;&#xFF0C;&#x6BD4;&#x5982;5.1.47</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String url = <span class="hljs-string">&quot;jdbc:mysql://127.0.0.1:3306/daliu?characterEncoding=utf-8&amp;useSSL=false&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String user = <span class="hljs-string">&quot;root&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String pass = <span class="hljs-string">&quot;daliu8807&quot;</span>;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Connection <span class="hljs-title">getConnection</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> ClassNotFoundException, SQLException </span>{
+        Class.forName(driver);
+        Connection connection = DriverManager.getConnection(url, user, pass);
+        <span class="hljs-keyword">return</span> connection;
+    }
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">// -- EmployeeJDBCInsertExample.java --</span>
+<span class="hljs-keyword">import</span> javax.sql.rowset.CachedRowSet;
+<span class="hljs-keyword">import</span> javax.sql.rowset.RowSetFactory;
+<span class="hljs-keyword">import</span> javax.sql.rowset.RowSetProvider;
+<span class="hljs-keyword">import</span> java.sql.*;
+
+<span class="hljs-comment">// https://blog.csdn.net/truelove12358/article/details/46708289</span>
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">EmployeeJDBCInsertExample</span> </span>{
+    <span class="hljs-comment">// &#x63D2;&#x5165;address</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String INSERT_ADDRESS_QUERY = <span class="hljs-string">&quot;insert into Address (empId, address, city, country) values (?,?,?,?)&quot;</span>;
+
+    <span class="hljs-comment">// &#x63D2;&#x5165;employee</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String INSERT_EMPLOYEE_QUERY = <span class="hljs-string">&quot;insert into Employee (empId, name) values (?,?)&quot;</span>;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertAddressData</span><span class="hljs-params">(Connection conn,
+                                         <span class="hljs-keyword">int</span> id,
+                                         String address,
+                                         String city,
+                                         String country)</span> <span class="hljs-keyword">throws</span> SQLException </span>{
+        PreparedStatement stmt = conn.prepareStatement(INSERT_ADDRESS_QUERY);
+        stmt.setInt(<span class="hljs-number">1</span>, id);
+        stmt.setString(<span class="hljs-number">2</span>, address);
+        stmt.setString(<span class="hljs-number">3</span>, city);
+        stmt.setString(<span class="hljs-number">4</span>, country);
+        stmt.executeUpdate();
+        System.out.println(<span class="hljs-string">&quot;Address Data inserted successfully for ID=&quot;</span> + id);
+        stmt.close();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertEmployeeData</span><span class="hljs-params">(Connection con, <span class="hljs-keyword">int</span> id, String name)</span> <span class="hljs-keyword">throws</span> SQLException </span>{
+        PreparedStatement stmt = con.prepareStatement(INSERT_EMPLOYEE_QUERY);
+        stmt.setInt(<span class="hljs-number">1</span>, id);
+        stmt.setString(<span class="hljs-number">2</span>, name);
+        stmt.executeUpdate();
+        System.out.println(<span class="hljs-string">&quot;Employee Data inserted successfully for ID=&quot;</span> + id);
+        stmt.close();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> ClassNotFoundException </span>{
+        Connection conn = <span class="hljs-keyword">null</span>;
+        <span class="hljs-keyword">try</span> {
+            conn = DBConnection.getConnection();
+            conn.setAutoCommit(<span class="hljs-keyword">false</span>);
+
+            <span class="hljs-comment">// &#x6210;&#x529F;&#x63D2;&#x5165;employee</span>
+            insertEmployeeData(conn, <span class="hljs-number">1</span>, <span class="hljs-string">&quot;Pankaj&quot;</span>);
+            System.out.println(<span class="hljs-string">&quot;---------- log employee rows: -----------------&quot;</span>);
+            logRows(conn, <span class="hljs-string">&quot;employee&quot;</span>);
+            <span class="hljs-comment">// &#x5F53;&#x63D2;&#x5165;address.city&#x65F6;&#xFF0C;&#x7531;&#x4E8E;address.city&#x88AB;&#x5B9A;&#x4E49;&#x4E3A;varchar(5)</span>
+            <span class="hljs-comment">// &#x8D85;&#x51FA;&#x957F;&#x5EA6;&#xFF0C;&#x53D1;&#x751F;&#x5F02;&#x5E38;</span>
+            insertAddressData(conn, <span class="hljs-number">1</span>, <span class="hljs-string">&quot;Albany Dr&quot;</span>, <span class="hljs-string">&quot;San Jose&quot;</span>, <span class="hljs-string">&quot;USA&quot;</span>);
+            System.out.println(<span class="hljs-string">&quot;---------- log address rows: -----------------&quot;</span>);
+            logRows(conn, <span class="hljs-string">&quot;address&quot;</span>);
+            conn.commit();
+        } <span class="hljs-keyword">catch</span> (SQLException ex) {
+            <span class="hljs-keyword">try</span> {
+                conn.rollback();
+                System.out.println(<span class="hljs-string">&quot;JDBC Transaction rolled back successfully&quot;</span>);
+            } <span class="hljs-keyword">catch</span> (SQLException e1) {
+                System.out.println(<span class="hljs-string">&quot;SQLException in rollback&quot;</span> + ex.getMessage());
+            } <span class="hljs-keyword">finally</span> {
+                <span class="hljs-keyword">try</span> {
+                    <span class="hljs-keyword">if</span> (conn != <span class="hljs-keyword">null</span>) {
+                        conn.close();
+                    }
+                } <span class="hljs-keyword">catch</span> (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">logRows</span><span class="hljs-params">(Connection conn, String table)</span> </span>{
+        <span class="hljs-keyword">try</span> {
+            Statement stmt = conn.createStatement();
+            String sql = <span class="hljs-string">&quot;SELECT * FROM &quot;</span> + table;
+            ResultSet resultSet = stmt.executeQuery(sql);
+            RowSetFactory factory = RowSetProvider.newFactory();
+            CachedRowSet rowSet = factory.createCachedRowSet();
+            rowSet.populate(resultSet);
+            resultSet.close();
+            stmt.close();
+            <span class="hljs-keyword">while</span> (rowSet.next()) {
+                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; rowSet.getMetaData().getColumnCount(); i++) {
+                    System.out.print(rowSet.getString(i+<span class="hljs-number">1</span>) + <span class="hljs-string">&quot;\t&quot;</span>);
+                }
+                System.out.println();
+            }
+        } <span class="hljs-keyword">catch</span> (Exception ex) {
+            System.out.println(<span class="hljs-string">&quot;log rows exception&quot;</span>);
+            ex.printStackTrace();
+        }
+    }
+
+    <span class="hljs-comment">/**
+    &#x6253;&#x5370;&#x7ED3;&#x679C;:
+     Employee Data inserted successfully for ID=1
+     ---------- log employee rows: -----------------
+     1    Pankaj
+     JDBC Transaction rolled back successfully
+     */</span>
+}
+</code></pre>
+<h3 id="savepoint">Savepoint</h3>
+<p>&#x6709;&#x65F6;&#x5019;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;&#x53EF;&#x80FD;&#x662F;&#x4E00;&#x7EC4;&#x590D;&#x6742;&#x7684;&#x8BED;&#x53E5;&#xFF0C;&#x56E0;&#x6B64;&#x53EF;&#x80FD;&#x60F3;&#x8981;&#x56DE;&#x6EDA;&#x5230;&#x4E8B;&#x52A1;&#x4E2D;&#x67D0;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x70B9;&#x3002;JDBC Savepoint&#x5E2E;&#x6211;&#x4EEC;&#x5728;&#x4E8B;&#x52A1;&#x4E2D;&#x521B;&#x5EFA;&#x68C0;&#x67E5;&#x70B9;&#xFF08;checkpoint&#xFF09;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x56DE;&#x6EDA;&#x5230;&#x6307;&#x5B9A;&#x70B9;&#x3002;&#x5F53;&#x4E8B;&#x52A1;&#x63D0;&#x4EA4;&#x6216;&#x8005;&#x6574;&#x4E2A;&#x4E8B;&#x52A1;&#x56DE;&#x6EDA;&#x540E;&#xFF0C;&#x4E3A;&#x4E8B;&#x52A1;&#x4EA7;&#x751F;&#x7684;&#x4EFB;&#x4F55;&#x4FDD;&#x5B58;&#x70B9;&#x90FD;&#x4F1A;&#x81EA;&#x52A8;&#x91CA;&#x653E;&#x5E76;&#x53D8;&#x4E3A;&#x65E0;&#x6548;&#x3002;&#x628A;&#x4E8B;&#x52A1;&#x56DE;&#x6EDA;&#x5230;&#x4E00;&#x4E2A;&#x4FDD;&#x5B58;&#x70B9;&#xFF0C;&#x4F1A;&#x4F7F;&#x5176;&#x4ED6;&#x6240;&#x6709;&#x4FDD;&#x5B58;&#x70B9;&#x81EA;&#x52A8;&#x91CA;&#x653E;&#x5E76;&#x53D8;&#x4E3A;&#x65E0;&#x6548;&#x3002;<br>MySQL&#x63D0;&#x4F9B;&#x4E86;savepoint&#x6765;&#x8BBE;&#x7F6E;&#x4E8B;&#x52A1;&#x7684;&#x4E2D;&#x95F4;&#x70B9;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;&#x4E8B;&#x52A1;&#x56DE;&#x6EDA;&#x52A8;&#x6307;&#x5B9A;&#x4E2D;&#x95F4;&#x70B9;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x56DE;&#x6EDA;&#x5168;&#x90E8;&#x4E8B;&#x52A1;&#x3002;</p>
+<pre><code class="lang-java">savepoint a;
+...
+rollback to a;
+</code></pre>
+<p><strong>&#x6CE8;&#xFF1A;</strong>&#x666E;&#x901A;&#x7684;&#x63D0;&#x4EA4;&#x3001;&#x56DE;&#x6EDA;&#x90FD;&#x4F1A;&#x7ED3;&#x675F;&#x5F53;&#x524D;&#x4E8B;&#x52A1;&#xFF0C;&#x4F46;&#x56DE;&#x6EDA;&#x5230;&#x6307;&#x5B9A;&#x4E2D;&#x95F4;&#x70B9;&#x56E0;&#x4E3A;&#x4F9D;&#x7136;&#x5904;&#x4E8E;&#x4E8B;&#x52A1;&#x4E4B;&#x4E2D;&#xFF0C;&#x6240;&#x4EE5;&#x4E0D;&#x4F1A;&#x7ED3;&#x675F;&#x5F53;&#x524D;&#x4E8B;&#x52A1;&#x3002;</p>
+<p>&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x6709;&#x4E00;&#x5F20;&#x65E5;&#x5FD7;&#x8868;Logs&#xFF0C;&#x7528;&#x6765;&#x8BB0;&#x5F55;&#x5458;&#x5DE5;&#x4FE1;&#x606F;&#x4FDD;&#x5B58;&#x6210;&#x529F;&#x7684;&#x65E5;&#x5FD7;&#x3002;&#x4F46;&#x662F;&#x56E0;&#x4E3A;&#x5B83;&#x53EA;&#x7528;&#x4E8E;&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#xFF0C;&#x5F53;&#x63D2;&#x5165;&#x65E5;&#x5FD7;&#x8868;&#x6709;&#x4EFB;&#x4F55;&#x5F02;&#x5E38;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x5E0C;&#x671B;&#x56DE;&#x6EDA;&#x6574;&#x4E2A;&#x4E8B;&#x52A1;, &#x5373;&#xFF1A;
+&#x64CD;&#x4F5C;1;
+&#x64CD;&#x4F5C;2;
+savepoint;
+&#x64CD;&#x4F5C;&#x63D2;&#x5165;&#x65E5;&#x5FD7;;</p>
+<p>&#x5F53;&#x64CD;&#x4F5C;&#x63D2;&#x5165;&#x65E5;&#x5FD7;&#x51FA;&#x73B0;&#x5F02;&#x5E38;&#x65F6;&#xFF0C;&#x5E76;&#x4E0D;&#x5168;&#x90E8;rollback, &#x800C;&#x662F;rollack to savepoint; &#x8FD9;&#x6837;&#x64CD;&#x4F5C;1&#x548C;&#x64CD;&#x4F5C;2&#x662F;&#x6709;&#x6548;&#x7684;&#xFF1B;</p>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code>mysql&gt; select * from account;
++----+------+-------+
+| id | name | money |
++----+------+-------+
+|  1 | aaa  |   500 |
+|  2 | bbb  |  1000 |
+|  3 | ccc  |  1000 |
++----+------+-------+
+</code></pre><pre><code class="lang-java"><span class="hljs-comment">// -- DBConnection.java --</span>
+<span class="hljs-keyword">import</span> java.sql.Connection;
+<span class="hljs-keyword">import</span> java.sql.DriverManager;
+<span class="hljs-keyword">import</span> java.sql.SQLException;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DBConnection</span> </span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String driver =<span class="hljs-string">&quot;com.mysql.cj.jdbc.Driver&quot;</span>; <span class="hljs-comment">// &#x4F7F;&#x7528;8.x&#x7248;&#x672C;&#x9A71;&#x52A8;</span>
+    <span class="hljs-comment">// public static String driver = &quot;com.mysql.jdbc.Driver&quot;; // &#x4F7F;&#x7528;&#x8001;&#x7248;&#x672C;&#x9A71;&#x52A8;&#xFF0C;&#x6BD4;&#x5982;5.1.47</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String url = <span class="hljs-string">&quot;jdbc:mysql://127.0.0.1:3306/daliu?characterEncoding=utf-8&amp;useSSL=false&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String user = <span class="hljs-string">&quot;root&quot;</span>;
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String pass = <span class="hljs-string">&quot;daliu8807&quot;</span>;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> Connection <span class="hljs-title">getConnection</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> ClassNotFoundException, SQLException </span>{
+        Class.forName(driver);
+        Connection connection = DriverManager.getConnection(url, user, pass);
+        <span class="hljs-keyword">return</span> connection;
+    }
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">// -- SavePointExample.java --</span>
+<span class="hljs-keyword">import</span> java.sql.*;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SavePointExample</span> </span>{
+    <span class="hljs-comment">// &#x63D2;&#x5165;address</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String INSERT_ADDRESS_QUERY = <span class="hljs-string">&quot;insert into Address (empId, address, city, country) values (?,?,?,?)&quot;</span>;
+
+    <span class="hljs-comment">// &#x63D2;&#x5165;employee</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String INSERT_EMPLOYEE_QUERY = <span class="hljs-string">&quot;insert into Employee (empId, name) values (?,?)&quot;</span>;
+
+    <span class="hljs-comment">// &#x63D2;&#x5165;Logs</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String INSERT_LOGS_QUERY = <span class="hljs-string">&quot;insert into Logs (message) values (?)&quot;</span>;
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertAddressData</span><span class="hljs-params">(Connection conn,
+                                         <span class="hljs-keyword">int</span> id,
+                                         String address,
+                                         String city,
+                                         String country)</span> <span class="hljs-keyword">throws</span> SQLException </span>{
+        PreparedStatement stmt = conn.prepareStatement(INSERT_ADDRESS_QUERY);
+        stmt.setInt(<span class="hljs-number">1</span>, id);
+        stmt.setString(<span class="hljs-number">2</span>, address);
+        stmt.setString(<span class="hljs-number">3</span>, city);
+        stmt.setString(<span class="hljs-number">4</span>, country);
+        stmt.executeUpdate();
+        System.out.println(<span class="hljs-string">&quot;Address Data inserted successfully for ID=&quot;</span> + id);
+        stmt.close();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertEmployeeData</span><span class="hljs-params">(Connection con, <span class="hljs-keyword">int</span> id, String name)</span> <span class="hljs-keyword">throws</span> SQLException </span>{
+        PreparedStatement stmt = con.prepareStatement(INSERT_EMPLOYEE_QUERY);
+        stmt.setInt(<span class="hljs-number">1</span>, id);
+        stmt.setString(<span class="hljs-number">2</span>, name);
+        stmt.executeUpdate();
+        System.out.println(<span class="hljs-string">&quot;Employee Data inserted successfully for ID=&quot;</span> + id);
+        stmt.close();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">insertLogData</span><span class="hljs-params">(Connection conn, <span class="hljs-keyword">int</span> i)</span> <span class="hljs-keyword">throws</span> SQLException </span>{
+        PreparedStatement stmt = conn.prepareStatement(INSERT_LOGS_QUERY);
+        <span class="hljs-comment">// message&#x5B57;&#x6BB5;&#x5F88;&#x957F;&#xFF0C;&#x8D85;&#x51FA;varchar(10)&#x9650;&#x5B9A;&#xFF0C;&#x5F15;&#x53D1;SQLException</span>
+        stmt.setString(<span class="hljs-number">1</span>, <span class="hljs-string">&quot;This is too long message, case exception&quot;</span>);
+        stmt.executeUpdate();
+        System.out.println(<span class="hljs-string">&quot;Logs Data inserted successfully, id=&quot;</span> + i);
+        stmt.close();
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> ClassNotFoundException </span>{
+        System.out.println(<span class="hljs-string">&quot;XINGINGINGINGINGING&quot;</span>);
+        Connection conn = <span class="hljs-keyword">null</span>;
+        Savepoint savepoint = <span class="hljs-keyword">null</span>;
+        <span class="hljs-keyword">try</span> {
+            conn = DBConnection.getConnection();
+            conn.setAutoCommit(<span class="hljs-keyword">false</span>);
+            <span class="hljs-comment">// &#x64CD;&#x4F5C;1&#xFF1A;&#x5F80;employee&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x636E;</span>
+            insertEmployeeData(conn, <span class="hljs-number">1</span>, <span class="hljs-string">&quot;&#x5927;&#x5218;&quot;</span>);
+            <span class="hljs-comment">// &#x64CD;&#x4F5C;2&#xFF1A;&#x5F80;user&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x636E;</span>
+            insertAddressData(conn, <span class="hljs-number">1</span>, <span class="hljs-string">&quot;&#x6CB3;&#x5357;&quot;</span>, <span class="hljs-string">&quot;&#x90D1;&#x5DDE;&quot;</span>, <span class="hljs-string">&quot;&#x4E2D;&#x56FD;&quot;</span>);
+            <span class="hljs-comment">// Savepoint</span>
+            savepoint = conn.setSavepoint(<span class="hljs-string">&quot;mySavePoint&quot;</span>);
+            <span class="hljs-comment">// &#x64CD;&#x4F5C;3&#xFF1A;&#x5F80;Logs&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x4E00;&#x6B65;&#x5F15;&#x53D1;&#x5F02;&#x5E38;&#xFF0C;&#x4F46;rollback&#x5230;savepoint&#x4E4B;&#x540E;&#x518D;commit</span>
+            <span class="hljs-comment">// &#x4F1A;&#x8BA9;&#x64CD;&#x4F5C;1&#x548C;2&#x751F;&#x6548;</span>
+            insertLogData(conn, <span class="hljs-number">2</span>);
+            conn.commit();
+        } <span class="hljs-keyword">catch</span> (SQLException ex) {
+            ex.printStackTrace();
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-keyword">if</span> (savepoint == <span class="hljs-keyword">null</span>) { <span class="hljs-comment">// &#x5982;&#x679C;&#x6267;&#x884C;&#x7B2C;1&#x6B65;&#x6216;&#x7B2C;2&#x6B65;&#x64CD;&#x4F5C;&#x65F6;&#x51FA;&#x73B0;&#x5F02;&#x5E38;&#xFF0C;&#x76F4;&#x63A5;rollback</span>
+                    conn.rollback();
+                    System.out.println(<span class="hljs-string">&quot;employee&#x6216;address&#x63D2;&#x5165;&#x6570;&#x636E;&#x5F02;&#x5E38;&#xFF0C;&#x56DE;&#x6EDA;&quot;</span>);
+                } <span class="hljs-keyword">else</span> {
+                    System.out.println(<span class="hljs-string">&quot;Logs&#x63D2;&#x5165;&#x6570;&#x636E;&#x5F02;&#x5E38;&#xFF0C;&#x4F46;employee&#x548C;address&#x63D2;&#x5165;&#x6570;&#x636E;&#x5F02;&#x5E38;&#xFF0C;&#x56DE;&#x6EDA;&#x5230;savepoint&quot;</span>);
+                    conn.rollback(savepoint);
+                    <span class="hljs-comment">// &#x56DE;&#x6EDA;&#x5230;savepoint&#x70B9;&#xFF0C;&#x91CD;&#x65B0;&#x63D0;&#x4EA4;</span>
+                    conn.commit();
+                }
+            } <span class="hljs-keyword">catch</span> (SQLException e1) {
+                System.out.println(<span class="hljs-string">&quot;SQLException in rollback&quot;</span>);
+                ex.printStackTrace();
+            } <span class="hljs-keyword">finally</span> {
+                <span class="hljs-keyword">try</span> {
+                    <span class="hljs-keyword">if</span> (conn != <span class="hljs-keyword">null</span>) {
+                        conn.close();
+                    }
+                } <span class="hljs-keyword">catch</span> (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+
+<span class="hljs-comment">/**
+&#x7A0B;&#x5E8F;&#x6253;&#x5370;&#xFF1A;
+Employee Data inserted successfully for ID=1
+Address Data inserted successfully for ID=1
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column &apos;message&apos; at row 1
+    at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+    at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+    at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+    at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+    at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1340)
+    at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+    at SavePointExample.insertLogData(SavePointExample.java:85)
+    at SavePointExample.main(SavePointExample.java:52)
+Logs&#x63D2;&#x5165;&#x6570;&#x636E;&#x5F02;&#x5E38;&#xFF0C;&#x4F46;employee&#x548C;address&#x63D2;&#x5165;&#x6570;&#x636E;&#x5F02;&#x5E38;&#xFF0C;&#x56DE;&#x6EDA;&#x5230;savepoint
+*/</span>
+</code></pre>
+<h3 id="java-8-&#x589E;&#x5F3A;&#x7684;&#x6279;&#x91CF;&#x66F4;&#x65B0;">Java 8 &#x589E;&#x5F3A;&#x7684;&#x6279;&#x91CF;&#x66F4;&#x65B0;</h3>
+<p>&#x9996;&#x5148;&#x6279;&#x91CF;&#x66F4;&#x65B0;&#x9700;&#x8981;&#x5F97;&#x5230;&#x5E95;&#x5C42;&#x6570;&#x636E;&#x5E93;&#x7684;&#x652F;&#x6301;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;DatabaseMetaData&#x7684;supportsBatchUpdates()&#x65B9;&#x6CD5;&#x67E5;&#x770B;&#x5E95;&#x5C42;&#x6570;&#x636E;&#x5E93;&#x662F;&#x5426;&#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;&#xFF1A;</p>
+<pre><code class="lang-java">Connection conn = DriverManager.getConnection(url, user, pass);
+DatabaseMetaData metaData = conn.getMetaData();
+<span class="hljs-keyword">if</span> (metaData.supportsBatchUpdates()) {
+    System.out.println(<span class="hljs-string">&quot;&#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;&quot;</span>);
+} <span class="hljs-keyword">else</span> {
+    System.out.println(<span class="hljs-string">&quot;&#x4E0D;&#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;&quot;</span>);
+}
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x6279;&#x91CF;&#x66F4;&#x65B0;&#x65F6;&#xFF0C;&#x591A;&#x6761;SQL&#x8BED;&#x53E5;&#x5C06;&#x88AB;&#x4F5C;&#x4E3A;&#x4E00;&#x6279;&#x64CD;&#x4F5C;&#x88AB;&#x540C;&#x65F6;&#x6536;&#x96C6;&#xFF0C;&#x5E76;&#x540C;&#x65F6;&#x63D0;&#x4EA4;&#x3002;<br>&#x4F7F;&#x7528;addBatch()&#x6536;&#x96C6;SQL&#x8BED;&#x53E5;&#xFF0C;&#x6700;&#x540E;&#x8C03;&#x7528;executeBatch()&#x6216;executeLargetBatch()&#x6267;&#x884C;&#x8FD9;&#x4E9B;SQL&#x8BED;&#x53E5;&#xFF0C;&#x5982;&#x679C;&#x4EFB;&#x4F55;&#x4E00;&#x6761;SQL&#x8BED;&#x53E5;&#x5F71;&#x54CD;&#x7684;&#x8BB0;&#x5F55;&#x6761;&#x6570;&#x53EF;&#x80FD;&#x8D85;&#x8FC7;Integer.MAX_VALUE, &#x5C31;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;executeLargetBatch().</p>
+<p><strong>&#x6CE8;&#xFF1A;</strong> addBatch()&#x65B9;&#x6CD5;&#x4E2D;&#x4E0D;&#x53EF;&#x6DFB;&#x52A0;select&#x67E5;&#x8BE2;&#x8BED;&#x53E5;&#xFF0C;batch&#x662F;&#x7528;&#x4E8E;&#x6279;&#x91CF;&#x66F4;&#x65B0;&#x7684;&#xFF0C;&#x4E0D;&#x53EF;&#x67E5;&#x8BE2;&#x3002;</p>
+<p>&#x4E3A;&#x4E86;&#x8BA9;&#x6279;&#x91CF;&#x64CD;&#x4F5C;&#x53EF;&#x4EE5;&#x6B63;&#x786E;&#x5730;&#x5904;&#x7406;&#x9519;&#x8BEF;&#xFF0C;&#x5FC5;&#x987B;&#x628A;&#x6279;&#x91CF;&#x6267;&#x884C;&#x7684;&#x64CD;&#x4F5C;&#x89C6;&#x4E3A;&#x5355;&#x4E2A;&#x4E8B;&#x52A1;&#xFF0C;&#x7A0B;&#x5E8F;&#x5E94;&#x5F53;&#x5728;&#x5F00;&#x59CB;&#x6279;&#x91CF;&#x64CD;&#x4F5C;&#x4E4B;&#x524D;&#x5148;&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#xFF0C;&#x7136;&#x540E;&#x6536;&#x96C6;&#x66F4;&#x65B0;SQL&#x8BED;&#x53E5;&#xFF0C;&#x6700;&#x540E;execute&#x5E76;commit&#x63D0;&#x4EA4;&#x4E8B;&#x52A1;&#x3002;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-comment">// -- BatchTest.java --</span>
+<span class="hljs-keyword">import</span> java.sql.*;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BatchTest</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">update</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> SQLException, ClassNotFoundException </span>{
+        Class.forName(MySQLInfo.driver);
+        <span class="hljs-keyword">try</span> (
+                Connection conn = DriverManager.getConnection(MySQLInfo.url, MySQLInfo.user, MySQLInfo.pass);
+                ) {
+            DatabaseMetaData metaData = conn.getMetaData();
+            <span class="hljs-keyword">if</span> (metaData.supportsBatchUpdates()) {
+                System.out.println(<span class="hljs-string">&quot;&#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;&quot;</span>);
+            } <span class="hljs-keyword">else</span> {
+                System.out.println(<span class="hljs-string">&quot;&#x4E0D;&#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;&quot;</span>);
+                <span class="hljs-keyword">return</span>;
+            }
+            conn.setAutoCommit(<span class="hljs-keyword">false</span>);
+            String sql1 = <span class="hljs-string">&quot;INSERT INTO user VALUES(null, &apos;&#x8001;&#x738B;&apos;, &apos;2018-02-27 17:23:09 &apos;, &apos;1&apos;, &apos;&#x6CB3;&#x5357;&#x90D1;&#x5DDE;&apos;);&quot;</span>;
+            String sql2 = <span class="hljs-string">&quot;INSERT INTO user VALUES (null, &apos;&#x8001;&#x738B;&apos;, &apos;2018-02-27 17:23:09&apos;, &apos;1&apos;, &apos;&#x6CB3;&#x5357;&#x90D1;&#x5DDE;&apos;);&quot;</span>;
+            String sql3 = <span class="hljs-string">&quot;INSERT INTO user VALUES (null, &apos;&#x5927;&#x5218;&apos;, &apos;1998-02-27 09:23:09&apos;, &apos;1&apos;, &apos;&#x4E2D;&#x56FD;&#x9999;&#x6E2F;&apos;);&quot;</span>;
+            String sql4 = <span class="hljs-string">&quot;INSERT INTO user VALUES (null, &apos;&#x5F20;&#x4E09;&apos;, &apos;2018-02-27 17:23:09 &apos;, &apos;0&apos;, &apos;&#x8FBD;&#x5B81;&#x6C88;&#x9633;&apos;);&quot;</span>;
+            String sql5 = <span class="hljs-string">&quot;INSERT INTO user VALUES (null, &apos;&#x674E;&#x56DB;&apos;, &apos;2018-01-27 17:23:09 &apos;, &apos;0&apos;, &apos;&#x5C71;&#x4E1C;&#x6D4E;&#x5357;&apos;);&quot;</span>;
+            String sql6 = <span class="hljs-string">&quot;INSERT INTO user VALUES (null, &apos;&#x674E;&#x516B;&#x76AE;&apos;, &apos;2013-02-27 17:23:09 &apos;, &apos;1&apos;, &apos;&#x6E56;&#x5317;&#x6B66;&#x6C49;&apos;);&quot;</span>;
+            String sql7 = <span class="hljs-string">&quot;UPDATE user SET address=&apos;&#x7F8E;&#x56FD;&#x963F;&#x62C9;&#x65AF;&#x52A0;&apos; WHERE username=&apos;&#x674E;&#x516B;&#x76AE;&apos;;&quot;</span>;
+            Statement stmt = conn.createStatement();
+            stmt.addBatch(sql1);
+            stmt.addBatch(sql2);
+            stmt.addBatch(sql3);
+            stmt.addBatch(sql4);
+            stmt.addBatch(sql5);
+            stmt.addBatch(sql6);
+            stmt.addBatch(sql7);
+            <span class="hljs-comment">// &#x540C;&#x65F6;&#x63D0;&#x4EA4;&#x6240;&#x6709;&#x7684;SQL&#x8BED;&#x53E5;</span>
+            <span class="hljs-comment">// long[] arr = stmt.executeLargeBatch();</span>
+            <span class="hljs-keyword">int</span>[] arr = stmt.executeBatch();
+            <span class="hljs-comment">// &#x63D0;&#x4EA4;&#x4FEE;&#x6539;</span>
+            conn.commit();
+            System.out.println(<span class="hljs-string">&quot;&#x5171;&#x6709;&quot;</span> + arr.length + <span class="hljs-string">&quot;&#x6761;&#x6570;&#x636E;&#x53D7;&#x5230;&#x5F71;&#x54CD;&quot;</span>);
+            <span class="hljs-comment">// &#x6062;&#x590D;&#x539F;&#x6709;&#x7684;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x6A21;&#x5F0F;</span>
+            conn.setAutoCommit(<span class="hljs-keyword">true</span>);
+        }
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        BatchTest manage = <span class="hljs-keyword">new</span> BatchTest();
+        manage.update();
+
+        <span class="hljs-comment">/**
+         * &#x7A0B;&#x5E8F;&#x6253;&#x5370;&#xFF1A;
+         * &#x652F;&#x6301;&#x6279;&#x91CF;&#x66F4;&#x65B0;
+         * &#x5171;&#x6709;7&#x6761;&#x6570;&#x636E;&#x53D7;&#x5230;&#x5F71;&#x54CD;
+         */</span>
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="RowSet.html" class="navigation navigation-prev " aria-label="Previous page: RowSet">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="连接池.html" class="navigation navigation-next " aria-label="Next page: 连接池">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"事务","level":"1.38.11","depth":2,"next":{"title":"连接池","level":"1.38.12","depth":2,"path":"JDBC/连接池.md","ref":"JDBC/连接池.md","articles":[]},"previous":{"title":"RowSet","level":"1.38.10","depth":2,"path":"JDBC/RowSet.md","ref":"JDBC/RowSet.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"expandable-chapters-small":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"da liu","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook-daliu-java","gitbook":"*"},"file":{"path":"JDBC/事务.md","mtime":"2020-06-13T03:29:41.440Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-30T14:27:31.455Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

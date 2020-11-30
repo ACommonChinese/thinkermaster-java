@@ -1,0 +1,7 @@
+{
+	"title": "gitbook-daliu-java",
+	"author": "da liu",
+	"plugins": [
+		"expandable-chapters-small"
+	]
+}

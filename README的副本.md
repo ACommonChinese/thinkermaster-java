@@ -1,8 +1,6 @@
-# thinkermaster-java
+# gitbook-daliu-java
 
-thinker master java, note book
-
-java自我学习笔记备记, My Website: [http://www.thinkermaster.com](http://www.thinkermaster.com)
+java自我学习笔记备记
 
 Java语言是美国Sun公司(Stanford University Network)在1993年推出的高级编程语言.  
 

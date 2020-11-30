@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c188c892-6094-40d4-a81d-fe45ba3cbbe0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VdnPpYGGRyuZeVK8UMKPcNTqXP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxy" />
+      <module name="DynamicProxyDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test" />
+      <module name="DynamicProxyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DynamicProxy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c188c892-6094-40d4-a81d-fe45ba3cbbe0" name="Default Changelist" comment="" />
+      <created>1577591817511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577591817511</updated>
+      <workItem from="1577591821039" duration="6661000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1060" height="264" key="GridCell.Tab.0.bottom" timestamp="1577598536142">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="144" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1577594114722" />
+    <state width="1060" height="264" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577598536142" />
+    <state width="1060" height="264" key="GridCell.Tab.0.center" timestamp="1577598536141">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="144" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1577594114721" />
+    <state width="1060" height="264" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577598536141" />
+    <state width="1060" height="264" key="GridCell.Tab.0.left" timestamp="1577598536140">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="144" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1577594114721" />
+    <state width="1060" height="264" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577598536140" />
+    <state width="1060" height="264" key="GridCell.Tab.0.right" timestamp="1577598536141">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="144" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1577594114722" />
+    <state width="1060" height="264" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577598536141" />
+    <state width="1060" height="264" key="GridCell.Tab.1.bottom" timestamp="1577598536143">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="264" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577598536143" />
+    <state width="1060" height="264" key="GridCell.Tab.1.center" timestamp="1577598536143">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="264" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1577598536143" />
+    <state width="1060" height="264" key="GridCell.Tab.1.left" timestamp="1577598536142">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="264" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1577598536142" />
+    <state width="1060" height="264" key="GridCell.Tab.1.right" timestamp="1577598536143">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1060" height="264" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1577598536143" />
+    <state x="216" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1577598481186">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="216" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1577598481186" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/imp/DefaultSqlSession.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/imp/DefaultSqlSession.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
